@@ -1,3 +1,4 @@
+#!/bin/bash
 # This script demo how to decrypt the content of an aes-128-cbc b64 message if you know the key
 
 # Decode b64 
