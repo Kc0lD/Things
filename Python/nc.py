@@ -66,6 +66,7 @@ def client_sender(buffer):
 					break
 
 			print response, 
+			# Ctrl+D to exit input = EOF
 			buffer = raw_input("")
 			buffer += "\n"
 
