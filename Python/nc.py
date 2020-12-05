@@ -1,6 +1,5 @@
 import sys
-import socket
-import getopt 
+import socket 
 import threading
 import subprocess
 import argparse
