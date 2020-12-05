@@ -50,28 +50,27 @@ def client_sender(buffer):
 		client.connect((target,port))
 
 		if len(buffer):
-
 			client.send(buffer)
 
-			while True:
+		while True:
 
-				recv_len = 1 
-				response = ""
+			recv_len = 1 
+			response = ""
 
-				while recv_len:
+			# Receive the server response
+			while recv_len:
+				data 	  = client.recv(4096)
+				recv_len  = len(data)
+				response += data
 
-					data 	  = client.recv(4096)
-					recv_len  = len(data)
-					response += data
+				if recv_len < 4096:
+					break
 
-					if recv_len < 4096:
-						break
-					print response 
+			print response, 
+			buffer = raw_input("")
+			buffer += "\n"
 
-					buffer = raw_input("")
-					buffer += "\n"
-
-					client.send(buffer)
+			client.send(buffer)
 	except:
 
 		print "[*] Exception! Exiting."
@@ -146,15 +145,14 @@ def client_handler(client_socket):
 	if command: 
 
 		while True:
-
-			client_socket.send("<nc.py: #> ")
+			client_socket.send("<nc.py: #> ".replace('\n',''))
 
 			cmd_buffer = ""
 			while "\n" not in cmd_buffer:
 				cmd_buffer += client_socket.recv(1024)
 
 			response = run_command(cmd_buffer)
-
+			
 			client_socket.send(response)
 
 	client_socket.close()
