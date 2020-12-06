@@ -145,7 +145,7 @@ def client_handler(client_socket):
 	if command: 
 
 		while True:
-			client_socket.send("<nc.py: #> ".replace('\n',''))
+			client_socket.send("<nc.py: #> ")
 
 			cmd_buffer = ""
 			while "\n" not in cmd_buffer:
