@@ -1,0 +1,1630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SiPolicy xmlns="urn:schemas-microsoft-com:sipolicy">
+  <VersionEx>10.0.0.0</VersionEx>
+  <PolicyTypeID>{A244370E-44C9-4C06-B551-F6016E563076}</PolicyTypeID>
+  <PlatformID>{2E07F7E4-194C-4D20-B7C9-6F44A6C5A234}</PlatformID>
+  <Rules>
+    <Rule>
+      <Option>Enabled:Unsigned System Integrity Policy</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Audit Mode</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Advanced Boot Options Menu</Option>
+    </Rule>
+    <Rule>
+      <Option>Required:Enforce Store Applications</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:UMCI</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Inherit Default Policy</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Managed Installer</Option>
+    </Rule>
+  </Rules>
+  <!--EKUS-->
+  <EKUs>
+    <EKU ID="ID_EKU_WINDOWS" Value="010A2B0601040182370A0306" FriendlyName="" />
+    <EKU ID="ID_EKU_ELAM" Value="010A2B0601040182373D0401" FriendlyName="" />
+    <EKU ID="ID_EKU_HAL_EXT" Value="010a2b0601040182373d0501" FriendlyName="" />
+    <EKU ID="ID_EKU_WHQL" Value="010A2B0601040182370A0305" FriendlyName="" />
+    <EKU ID="ID_EKU_STORE" Value="010a2b0601040182374c0301" FriendlyName="Windows Store EKU - 1.3.6.1.4.1.311.76.3.1 Windows Store" />
+    <EKU ID="ID_EKU_RT_EXT" Value="010a2b0601040182370a0315" FriendlyName="" />
+    <EKU ID="ID_EKU_DCODEGEN" Value="010A2B0601040182374C0501" FriendlyName="Dynamic Code Generation EKU - 1.3.6.1.4.1.311.76.5.1" />
+    <EKU ID="ID_EKU_AM" Value="010a2b0601040182374c0b01" FriendlyName="AntiMalware EKU -1.3.6.1.4.1.311.76.11.1 " />
+  </EKUs>
+  <!--File Rules-->
+  <FileRules>
+    <FileAttrib ID="ID_FILEATTRIB_F_EA_0" FriendlyName="C:\Windows\CCM\1033\ccmres.dll FileAttribute" FileName="ccmres.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_EC_0" FriendlyName="C:\Windows\CCM\1033\cfg_res.dll FileAttribute" FileName="cfg_res.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_EE_0" FriendlyName="C:\Windows\CCM\1033\CmRcServiceRes.dll FileAttribute" FileName="CmRcServiceRes.Dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_F0_0" FriendlyName="C:\Windows\CCM\1033\Pwr_res.dll FileAttribute" FileName="Pwr_res.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_F2_0" FriendlyName="C:\Windows\CCM\1033\RcConfigRes.dll FileAttribute" FileName="RCConfigRes.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_F4_0" FriendlyName="C:\Windows\CCM\1033\swd_res.dll FileAttribute" FileName="swd_res.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_F6_0" FriendlyName="C:\Windows\CCM\1033\tsres.dll FileAttribute" FileName="tsres.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_F8_0" FriendlyName="C:\Windows\CCM\ClientUX\AdminUI.SmsTraceListener.dll FileAttribute" FileName="AdminUI.SmsTraceListener.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_FA_0" FriendlyName="C:\Windows\CCM\ClientUX\DataAccess.OnPremise.dll FileAttribute" FileName="DataAccess.OnPremise.dll" MinimumFileVersion="5.2103.1061.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_108_0" FriendlyName="C:\Windows\CCM\ClientUX\SCClient.common.dll FileAttribute" FileName="SCClient.Common.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_10A_0" FriendlyName="C:\Windows\CCM\ClientUX\SCClient.data.dll FileAttribute" FileName="SCClient.Data.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_10C_0" FriendlyName="C:\Windows\CCM\ClientUX\SCClient.exe FileAttribute" FileName="SCClient.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_10E_0" FriendlyName="C:\Windows\CCM\ClientUX\SCClient.Pages.Chrome.dll FileAttribute" FileName="SCClient.Pages.Chrome.dll" MinimumFileVersion="5.2103.1061.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_110_0" FriendlyName="C:\Windows\CCM\ClientUX\SCClient.Pages.dll FileAttribute" FileName="SCClient.Pages.dll" MinimumFileVersion="5.0.9049.1003" />
+    <FileAttrib ID="ID_FILEATTRIB_F_112_0" FriendlyName="C:\Windows\CCM\ClientUX\SCClient.SharedResources.dll FileAttribute" FileName="SCClient.SharedResources.dll" MinimumFileVersion="5.2103.1061.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_114_0" FriendlyName="C:\Windows\CCM\ClientUX\SCClient.ViewModels.dll FileAttribute" FileName="SCClient.ViewModels.dll" MinimumFileVersion="5.2103.1061.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_118_0" FriendlyName="C:\Windows\CCM\RemCtrl\Microsoft.ConfigurationManager.BgbServerChannel.dll FileAttribute" FileName="Microsoft.ConfigurationManager.BgbServerChannel.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_11A_0" FriendlyName="C:\Windows\CCM\RemCtrl\Microsoft.ConfigurationManager.CmRcProxy.dll FileAttribute" FileName="Microsoft.ConfigurationManager.CmRcProxy.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_11C_0" FriendlyName="C:\Windows\CCM\RemCtrl\Microsoft.ConfigurationManager.ManagedBase.dll FileAttribute" FileName="Microsoft.ConfigurationManager.ManagedBase.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_11E_0" FriendlyName="C:\Windows\CCM\RemCtrl\Microsoft.Identity.Client.dll FileAttribute" FileName="Microsoft.Identity.Client.dll" MinimumFileVersion="4.18.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_125_0" FriendlyName="C:\Windows\CCM\ADALInteractive.exe FileAttribute" FileName="ADALInteractive.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_128_0" FriendlyName="C:\Windows\CCM\AdminUI.CMPivotParser.dll FileAttribute" FileName="AdminUI.CMPivotParser.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_173_0" FriendlyName="C:\Windows\CCM\climsgs.dll FileAttribute" FileName="climsgs.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_17C_0" FriendlyName="C:\Windows\CCM\ConfigMgrSupportCenter.Common.dll FileAttribute" FileName="ConfigMgrSupportCenter.Common.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_17E_0" FriendlyName="C:\Windows\CCM\ConfigMgrSupportCenter.DataCollector.dll FileAttribute" FileName="ConfigMgrSupportCenter.DataCollector.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_180_0" FriendlyName="C:\Windows\CCM\ConfigMgrSupportCenter.LogEngine.dll FileAttribute" FileName="ConfigMgrSupportCenter.LogEngine.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_182_0" FriendlyName="C:\Windows\CCM\ConfigMgrSupportCenter.Resources.dll FileAttribute" FileName="ConfigMgrSupportCenter.Resources.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_184_0" FriendlyName="C:\Windows\CCM\ConnectivityDiagnosis.exe FileAttribute" FileName="ConnectivityDiagnosis.exe" MinimumFileVersion="10.0.18286.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1B6_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManagement.Messaging.dll FileAttribute" FileName="Microsoft.ConfigurationManagement.Messaging.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1B8_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManagement.Security.Cryptography.dll FileAttribute" FileName="Microsoft.ConfigurationManagement.Security.Cryptography.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1BA_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManagement.SensorFramework.dll FileAttribute" FileName="Microsoft.ConfigurationManagement.SensorFramework.dll" MinimumFileVersion="6.2103.27.3015" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1BC_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManager.ADAL.dll FileAttribute" FileName="Microsoft.ConfigurationManager.ADAL.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1BE_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManager.AssetProvider.dll FileAttribute" FileName="Microsoft.ConfigurationManager.AssetProvider.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1C0_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManager.DefaultAppsProvider.dll FileAttribute" FileName="Microsoft.ConfigurationManager.DefaultAppsProvider.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1C2_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManager.SensorManagedProvider.dll FileAttribute" FileName="Microsoft.ConfigurationManager.SensorManagedProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1C4_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManager.SVProvider.dll FileAttribute" FileName="Microsoft.ConfigurationManager.SVProvider.dll" MinimumFileVersion="5.0.9049.1002" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1C6_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManager.WinRTProvider.dll FileAttribute" FileName="Microsoft.ConfigurationManager.WinRTProvider.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1C8_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManager.WinStoreAppSettings.dll FileAttribute" FileName="Microsoft.ConfigurationManager.WinStoreAppSettings.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1CA_0" FriendlyName="C:\Windows\CCM\Microsoft.Diagnostics.FastSerialization.dll FileAttribute" FileName="Microsoft.Diagnostics.FastSerialization.dll" MinimumFileVersion="1.0.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1CC_0" FriendlyName="C:\Windows\CCM\Microsoft.Diagnostics.Tracing.TraceEvent.dll FileAttribute" FileName="Microsoft.Diagnostics.Tracing.TraceEvent.dll" MinimumFileVersion="2.0.45.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1CE_0" FriendlyName="C:\Windows\CCM\Microsoft.IdentityModel.Clients.ActiveDirectory.dll FileAttribute" FileName="Microsoft.IdentityModel.Clients.ActiveDirectory.dll" MinimumFileVersion="3.19.50615.2240" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1E6_0" FriendlyName="C:\Windows\CCM\OSExtensions.dll FileAttribute" FileName="OSExtensions.dll" MinimumFileVersion="1.0.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1FE_0" FriendlyName="C:\Windows\CCM\SCNotification.exe FileAttribute" FileName="SCNotification.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_203_0" FriendlyName="C:\Windows\CCM\SCToastNotification.exe FileAttribute" FileName="SCToastNotification.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_207_0" FriendlyName="C:\Windows\CCM\SensorLogonTask.exe FileAttribute" FileName="SensorLogonTask.exe" MinimumFileVersion="6.2103.27.3009" />
+    <FileAttrib ID="ID_FILEATTRIB_F_23C_0" FriendlyName="C:\Windows\CCM\tsresnlc.dll FileAttribute" FileName="tsresnlc.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_25A_0" FriendlyName="C:\Windows\System32\mfc120chs.dll FileAttribute" FileName="MFC120CHS.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_25C_0" FriendlyName="C:\Windows\System32\mfc120cht.dll FileAttribute" FileName="MFC120CHT.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_25E_0" FriendlyName="C:\Windows\System32\mfc120deu.dll FileAttribute" FileName="MFC120DEU.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_260_0" FriendlyName="C:\Windows\System32\mfc120enu.dll FileAttribute" FileName="MFC120ENU.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_262_0" FriendlyName="C:\Windows\System32\mfc120esn.dll FileAttribute" FileName="MFC120ESN.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_264_0" FriendlyName="C:\Windows\System32\mfc120fra.dll FileAttribute" FileName="MFC120FRA.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_266_0" FriendlyName="C:\Windows\System32\mfc120ita.dll FileAttribute" FileName="MFC120ITA.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_268_0" FriendlyName="C:\Windows\System32\mfc120jpn.dll FileAttribute" FileName="MFC120JPN.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_26A_0" FriendlyName="C:\Windows\System32\mfc120kor.dll FileAttribute" FileName="MFC120KOR.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_26C_0" FriendlyName="C:\Windows\System32\mfc120rus.dll FileAttribute" FileName="MFC120RUS.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_FC_0" FriendlyName="C:\Windows\CCM\ClientUX\Microsoft.Management.Services.SelfServicePortal.Common.dll FileAttribute" FileName="Microsoft.Management.Services.SelfServicePortal.Common.dll" MinimumFileVersion="4.1.2964.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_FE_0" FriendlyName="C:\Windows\CCM\ClientUX\Microsoft.Management.Services.SelfServicePortal.Common.Portable.dll FileAttribute" FileName="Microsoft.Management.Services.SelfServicePortal.Common.Portable.dll" MinimumFileVersion="6.0.2964.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_100_0" FriendlyName="C:\Windows\CCM\ClientUX\Microsoft.Management.Services.SelfServicePortal.DataAccess.dll FileAttribute" FileName="Microsoft.Management.Services.SelfServicePortal.DataAccess.dll" MinimumFileVersion="4.1.2964.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_102_0" FriendlyName="C:\Windows\CCM\ClientUX\Microsoft.Management.Services.SelfServicePortal.Plugins.dll FileAttribute" FileName="Microsoft.Management.Services.SelfServicePortal.Plugins.dll" MinimumFileVersion="6.0.2964.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_104_0" FriendlyName="C:\Windows\CCM\ClientUX\Microsoft.Web.WebView2.Core.dll FileAttribute" FileName="Microsoft.Web.WebView2.Core.dll" MinimumFileVersion="1.0.664.37" />
+    <FileAttrib ID="ID_FILEATTRIB_F_106_0" FriendlyName="C:\Windows\CCM\ClientUX\Microsoft.Web.WebView2.Wpf.dll FileAttribute" FileName="Microsoft.Web.WebView2.Wpf.dll" MinimumFileVersion="1.0.664.37" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1EE_0" FriendlyName="C:\Windows\CCM\PrepDrv.sys FileAttribute" FileName="PrepDrv.sys" MinimumFileVersion="5.0.7652.0" />
+    <Allow ID="ID_ALLOW_A_279_0" FriendlyName="C:\Windows\CCM\ccmerrors.dll Hash Sha1" Hash="6269031A245A6170380E1BA40CD9C503D4A627D9" />
+    <Allow ID="ID_ALLOW_A_27A_0" FriendlyName="C:\Windows\CCM\ccmerrors.dll Hash Sha256" Hash="877A34DFB2BE1345E91BEC99170693631D6DBC2D513AC8B7EEE7AE8D7E301BAC" />
+    <Allow ID="ID_ALLOW_A_27B_0" FriendlyName="C:\Windows\CCM\ccmerrors.dll Hash Page Sha1" Hash="784A415C0B7CB8894FC345FE17BD65381520F75E" />
+    <Allow ID="ID_ALLOW_A_27C_0" FriendlyName="C:\Windows\CCM\ccmerrors.dll Hash Page Sha256" Hash="F4F0A850CEC145E0E64FF0EDBAB91DE17F0BBC0D190FF0145F9D5DAC9B72D868" />
+    <Allow ID="ID_ALLOW_A_281_0" FriendlyName="C:\Windows\CCM\smserrors.dll Hash Sha1" Hash="7A9EA8E4E1DF8014C44EC5E3090A2FC7B7407C0A" />
+    <Allow ID="ID_ALLOW_A_282_0" FriendlyName="C:\Windows\CCM\smserrors.dll Hash Sha256" Hash="09906367D6A2AF617BF13A3F1DC444DEAC16A99197FD4E76492B11D4B02CDFF6" />
+    <Allow ID="ID_ALLOW_A_283_0" FriendlyName="C:\Windows\CCM\smserrors.dll Hash Page Sha1" Hash="5287E2071E52D80624ECE863896909722F984548" />
+    <Allow ID="ID_ALLOW_A_284_0" FriendlyName="C:\Windows\CCM\smserrors.dll Hash Page Sha256" Hash="1C0DF6B48A3C7196833F9505D1569399466135B516814F2A27536274C5778D36" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1_0" FriendlyName="C:\Windows\ccmsetup\ccmsetup.exe FileAttribute" FileName="ccmsetup.exe" MinimumFileVersion="5.0.9049.1003" />
+    <FileAttrib ID="ID_FILEATTRIB_F_2_0" FriendlyName="C:\Windows\ccmsetup\vcredist_x64.exe FileAttribute" FileName="vcredist_x64.exe" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_3_0" FriendlyName="C:\Windows\ccmsetup\vcredist_x86.exe FileAttribute" FileName="vcredist_x86.exe" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_4_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\aeinv.dll FileAttribute" FileName="aeinv.dll" MinimumFileVersion="6.1.2090.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_5_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\EnvironmentProvider.dll FileAttribute" FileName="EnvironmentProvider.dll" MinimumFileVersion="68.1.1010.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_6_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\FileFolder.dll FileAttribute" FileName="fileFolder.dll" MinimumFileVersion="68.1.1010.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_7_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\lpa.dll FileAttribute" FileName="lpa.dll" MinimumFileVersion="68.1.1010.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_8_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\lpp.dll FileAttribute" FileName="lpp.dll" MinimumFileVersion="68.1.1010.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_A_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\policyHost.exe FileAttribute" FileName="policyHost.exe" MinimumFileVersion="68.1.1010.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_B_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistryProvider.dll FileAttribute" FileName="RegistryProvider.dll" MinimumFileVersion="68.1.1010.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_C_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\SoftwareInventoryProvider.dll FileAttribute" FileName="SoftwareInventory.dll" MinimumFileVersion="68.1.1010.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_D_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\sqlceca40.dll FileAttribute" FileName="SQLCECA" MinimumFileVersion="4.0.8902.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_E_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\sqlcecompact40.dll FileAttribute" FileName="SQLCECOMPACT" MinimumFileVersion="4.0.8902.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_F_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\sqlceer40EN.dll FileAttribute" FileName="SQLCEER" MinimumFileVersion="4.0.8902.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_10_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\sqlceoledb40.dll FileAttribute" FileName="SQLCEOLEDB" MinimumFileVersion="4.0.8902.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_11_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\sqlceqp40.dll FileAttribute" FileName="SQLCEQP" MinimumFileVersion="4.0.8902.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_12_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\sqlcese40.dll FileAttribute" FileName="SQLCESE" MinimumFileVersion="4.0.8902.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_9_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\msvcr90.dll FileAttribute" FileName="MSVCR90.DLL" MinimumFileVersion="9.0.30729.4148" />
+    <FileAttrib ID="ID_FILEATTRIB_F_EB_0" FriendlyName="C:\Windows\CCM\1033\ccmres.dll FileAttribute" FileName="ccmres.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_ED_0" FriendlyName="C:\Windows\CCM\1033\cfg_res.dll FileAttribute" FileName="cfg_res.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_EF_0" FriendlyName="C:\Windows\CCM\1033\CmRcServiceRes.dll FileAttribute" FileName="CmRcServiceRes.Dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_F1_0" FriendlyName="C:\Windows\CCM\1033\Pwr_res.dll FileAttribute" FileName="Pwr_res.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_F3_0" FriendlyName="C:\Windows\CCM\1033\RcConfigRes.dll FileAttribute" FileName="RCConfigRes.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_F5_0" FriendlyName="C:\Windows\CCM\1033\swd_res.dll FileAttribute" FileName="swd_res.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_F7_0" FriendlyName="C:\Windows\CCM\1033\tsres.dll FileAttribute" FileName="tsres.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_F9_0" FriendlyName="C:\Windows\CCM\ClientUX\AdminUI.SmsTraceListener.dll FileAttribute" FileName="AdminUI.SmsTraceListener.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_FB_0" FriendlyName="C:\Windows\CCM\ClientUX\DataAccess.OnPremise.dll FileAttribute" FileName="DataAccess.OnPremise.dll" MinimumFileVersion="5.2103.1061.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_109_0" FriendlyName="C:\Windows\CCM\ClientUX\SCClient.common.dll FileAttribute" FileName="SCClient.Common.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_10B_0" FriendlyName="C:\Windows\CCM\ClientUX\SCClient.data.dll FileAttribute" FileName="SCClient.Data.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_10D_0" FriendlyName="C:\Windows\CCM\ClientUX\SCClient.exe FileAttribute" FileName="SCClient.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_10F_0" FriendlyName="C:\Windows\CCM\ClientUX\SCClient.Pages.Chrome.dll FileAttribute" FileName="SCClient.Pages.Chrome.dll" MinimumFileVersion="5.2103.1061.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_111_0" FriendlyName="C:\Windows\CCM\ClientUX\SCClient.Pages.dll FileAttribute" FileName="SCClient.Pages.dll" MinimumFileVersion="5.0.9049.1003" />
+    <FileAttrib ID="ID_FILEATTRIB_F_113_0" FriendlyName="C:\Windows\CCM\ClientUX\SCClient.SharedResources.dll FileAttribute" FileName="SCClient.SharedResources.dll" MinimumFileVersion="5.2103.1061.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_115_0" FriendlyName="C:\Windows\CCM\ClientUX\SCClient.ViewModels.dll FileAttribute" FileName="SCClient.ViewModels.dll" MinimumFileVersion="5.2103.1061.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_117_0" FriendlyName="C:\Windows\CCM\RemCtrl\CmRcService.exe FileAttribute" FileName="CmRcService.exe" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_119_0" FriendlyName="C:\Windows\CCM\RemCtrl\Microsoft.ConfigurationManager.BgbServerChannel.dll FileAttribute" FileName="Microsoft.ConfigurationManager.BgbServerChannel.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_11B_0" FriendlyName="C:\Windows\CCM\RemCtrl\Microsoft.ConfigurationManager.CmRcProxy.dll FileAttribute" FileName="Microsoft.ConfigurationManager.CmRcProxy.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_11D_0" FriendlyName="C:\Windows\CCM\RemCtrl\Microsoft.ConfigurationManager.ManagedBase.dll FileAttribute" FileName="Microsoft.ConfigurationManager.ManagedBase.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_11F_0" FriendlyName="C:\Windows\CCM\RemCtrl\Microsoft.Identity.Client.dll FileAttribute" FileName="Microsoft.Identity.Client.dll" MinimumFileVersion="4.18.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_120_0" FriendlyName="C:\Windows\CCM\RemCtrl\RdpCoreSccm.dll FileAttribute" FileName="RdpCoreSCCM.dll" MinimumFileVersion="5.0.8850.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_121_0" FriendlyName="C:\Windows\CCM\RemCtrl\SccmRdpsystem.exe FileAttribute" FileName="sccmrdpsystem.exe" MinimumFileVersion="5.0.8850.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_122_0" FriendlyName="C:\Windows\CCM\RemCtrl\SccmRdpUi.dll FileAttribute" FileName="SccmRdpUI.dll" MinimumFileVersion="5.0.8850.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_123_0" FriendlyName="C:\Windows\CCM\RemCtrl\SccmRdpUser.exe FileAttribute" FileName="sccmrdpuser.exe" MinimumFileVersion="5.0.8850.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_124_0" FriendlyName="C:\Windows\CCM\AAprov.dll FileAttribute" FileName="aaprov.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_126_0" FriendlyName="C:\Windows\CCM\ADALInteractive.exe FileAttribute" FileName="ADALInteractive.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_127_0" FriendlyName="C:\Windows\CCM\ADALOperationProvider.dll FileAttribute" FileName="ADALOperationProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_129_0" FriendlyName="C:\Windows\CCM\AdminUI.CMPivotParser.dll FileAttribute" FileName="AdminUI.CMPivotParser.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_12A_0" FriendlyName="C:\Windows\CCM\AffinityAgent.dll FileAttribute" FileName="AffinityAgent.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_12B_0" FriendlyName="C:\Windows\CCM\AlternateHandler.dll FileAttribute" FileName="AlternateHandler.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_12C_0" FriendlyName="C:\Windows\CCM\AppExcnLib.dll FileAttribute" FileName="AppExcnLib.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_12D_0" FriendlyName="C:\Windows\CCM\AppGroupHandler.dll FileAttribute" FileName="AppGroupHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_12E_0" FriendlyName="C:\Windows\CCM\AppProvider.dll FileAttribute" FileName="AppProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_12F_0" FriendlyName="C:\Windows\CCM\AppV5XHandler.dll FileAttribute" FileName="AppV5XHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_130_0" FriendlyName="C:\Windows\CCM\AppVCMCore.dll FileAttribute" FileName="AppVCMCore.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_131_0" FriendlyName="C:\Windows\CCM\AppVHandler.dll FileAttribute" FileName="AppVHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_132_0" FriendlyName="C:\Windows\CCM\AppXHandler.dll FileAttribute" FileName="AppXHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_133_0" FriendlyName="C:\Windows\CCM\AssetAdvisor.dll FileAttribute" FileName="assetadvisor.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_134_0" FriendlyName="C:\Windows\CCM\ATPHandler.dll FileAttribute" FileName="ATPHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_135_0" FriendlyName="C:\Windows\CCM\AVHandler.dll FileAttribute" FileName="AVHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_136_0" FriendlyName="C:\Windows\CCM\BgbClientEndpoint.dll FileAttribute" FileName="BgbClientEndpoint.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_137_0" FriendlyName="C:\Windows\CCM\BitlockerManagementHandler.dll FileAttribute" FileName="BitlockerManagementHandler.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_138_0" FriendlyName="C:\Windows\CCM\Ccm32BitLauncher.exe FileAttribute" FileName="Ccm32BitLauncher.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_139_0" FriendlyName="C:\Windows\CCM\CcmAADBroker.exe FileAttribute" FileName="CcmAADBroker.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_13A_0" FriendlyName="C:\Windows\CCM\CCMAuthMessageHook.dll FileAttribute" FileName="CCMAuthMessageHook.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_13B_0" FriendlyName="C:\Windows\CCM\ccmcisdk.dll FileAttribute" FileName="CcmCISdk.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_13C_0" FriendlyName="C:\Windows\CCM\ccmcisdk_ps.dll FileAttribute" FileName="ccmcisdk_ps.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_13D_0" FriendlyName="C:\Windows\CCM\CcmCloud.dll FileAttribute" FileName="CcmCloud.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_13E_0" FriendlyName="C:\Windows\CCM\CcmCloud_ps.dll FileAttribute" FileName="ccmcloud_ps.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_13F_0" FriendlyName="C:\Windows\CCM\CCMComplianceProvider.dll FileAttribute" FileName="CcmComplianceProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_140_0" FriendlyName="C:\Windows\CCM\CcmCTM.dll FileAttribute" FileName="CCMCTM.dll" MinimumFileVersion="5.0.9049.1004" />
+    <FileAttrib ID="ID_FILEATTRIB_F_141_0" FriendlyName="C:\Windows\CCM\CcmCTMNotification.dll FileAttribute" FileName="CcmCTMNotification.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_142_0" FriendlyName="C:\Windows\CCM\CcmCTM_ps.dll FileAttribute" FileName="CCMCTM_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_143_0" FriendlyName="C:\Windows\CCM\CcmDTS.dll FileAttribute" FileName="CCMDTS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_144_0" FriendlyName="C:\Windows\CCM\ccmdump.exe FileAttribute" FileName="ccmdump.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_145_0" FriendlyName="C:\Windows\CCM\CcmEmbedded.dll FileAttribute" FileName="CcmEmbedded.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_146_0" FriendlyName="C:\Windows\CCM\CcmEval.exe FileAttribute" FileName="CcmEval.exe" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_147_0" FriendlyName="C:\Windows\CCM\CcmEvalTask.dll FileAttribute" FileName="CcmEvalTask.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_148_0" FriendlyName="C:\Windows\CCM\CcmExec.exe FileAttribute" FileName="ccmexec.exe" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_149_0" FriendlyName="C:\Windows\CCM\CcmExec_ps.dll FileAttribute" FileName="CCMExec_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_14A_0" FriendlyName="C:\Windows\CCM\CCMFileSystemProvider.dll FileAttribute" FileName="FileSystemProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_14B_0" FriendlyName="C:\Windows\CCM\ccmgencert.dll FileAttribute" FileName="CCMGenCert.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_14C_0" FriendlyName="C:\Windows\CCM\CCMGlobalExpressionValueProvider.dll FileAttribute" FileName="GlobalExpressionValueProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_14D_0" FriendlyName="C:\Windows\CCM\ccmhttp.dll FileAttribute" FileName="CCMHTTP.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_14E_0" FriendlyName="C:\Windows\CCM\ccmid.dll FileAttribute" FileName="CCMID.dll" MinimumFileVersion="5.0.9049.1009" />
+    <FileAttrib ID="ID_FILEATTRIB_F_14F_0" FriendlyName="C:\Windows\CCM\ccmident.dll FileAttribute" FileName="CCMIdent.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_150_0" FriendlyName="C:\Windows\CCM\CCMMSIProvider.dll FileAttribute" FileName="CCMMSIProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_151_0" FriendlyName="C:\Windows\CCM\CCMPasswordSettingsProvider.dll FileAttribute" FileName="PasswordSettingsProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_152_0" FriendlyName="C:\Windows\CCM\CcmPendingTasks.dll FileAttribute" FileName="CcmPendingTasks.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_153_0" FriendlyName="C:\Windows\CCM\ccmperf.dll FileAttribute" FileName="CCMPerf.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_154_0" FriendlyName="C:\Windows\CCM\CCMPermissionProvider.dll FileAttribute" FileName="CCMPermissionProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_155_0" FriendlyName="C:\Windows\CCM\CcmPolicySdk.dll FileAttribute" FileName="CcmPolicySdk.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_156_0" FriendlyName="C:\Windows\CCM\CcmPolicySdk_ps.dll FileAttribute" FileName="CcmPolicySdk_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_157_0" FriendlyName="C:\Windows\CCM\CcmProfiler.dll FileAttribute" FileName="CcmProfiler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_158_0" FriendlyName="C:\Windows\CCM\CcmProxy.dll FileAttribute" FileName="CCMProxy.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_159_0" FriendlyName="C:\Windows\CCM\CcmProxy_ps.dll FileAttribute" FileName="CcmProxy_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_15A_0" FriendlyName="C:\Windows\CCM\CCMRegistryProvider.dll FileAttribute" FileName="RegistryProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_15B_0" FriendlyName="C:\Windows\CCM\CCMRemotePCConnectProvider.dll FileAttribute" FileName="RemotePCConnectProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_15C_0" FriendlyName="C:\Windows\CCM\ccmrepair.exe FileAttribute" FileName="ccmrepair.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_15D_0" FriendlyName="C:\Windows\CCM\CcmRestart.exe FileAttribute" FileName="ccmrestart.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_15E_0" FriendlyName="C:\Windows\CCM\ccmsdkprovider.dll FileAttribute" FileName="CCMSDKProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_15F_0" FriendlyName="C:\Windows\CCM\CcmSqlCE.dll FileAttribute" FileName="ccmcesql.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_160_0" FriendlyName="C:\Windows\CCM\CcmTask.dll FileAttribute" FileName="CcmTask.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_161_0" FriendlyName="C:\Windows\CCM\ccmutillib.dll FileAttribute" FileName="CCMUtilLib.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_162_0" FriendlyName="C:\Windows\CCM\CCMVDIProvider.dll FileAttribute" FileName="CCMVDIProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_163_0" FriendlyName="C:\Windows\CCM\CCMVpn2Provider.dll FileAttribute" FileName="Vpn2Provider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_164_0" FriendlyName="C:\Windows\CCM\CCMVpnProvider.dll FileAttribute" FileName="VpnProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_165_0" FriendlyName="C:\Windows\CCM\CcmWmiProviderBase.dll FileAttribute" FileName="CcmWmiProviderBase.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_166_0" FriendlyName="C:\Windows\CCM\CertEnrollEndpoint.dll FileAttribute" FileName="CertEnrollEndpoint.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_167_0" FriendlyName="C:\Windows\CCM\CertEnrollProvider.dll FileAttribute" FileName="CertEnrollProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_168_0" FriendlyName="C:\Windows\CCM\CIAgent.dll FileAttribute" FileName="CIAgent.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_169_0" FriendlyName="C:\Windows\CCM\ciagent_ps.dll FileAttribute" FileName="ciagent_ps.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_16A_0" FriendlyName="C:\Windows\CCM\CIDownloader.dll FileAttribute" FileName="CIDownloader.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_16B_0" FriendlyName="C:\Windows\CCM\cisstore_ps.dll FileAttribute" FileName="cisstore_ps.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_16C_0" FriendlyName="C:\Windows\CCM\CIStateStore.dll FileAttribute" FileName="CIStateStore.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_16D_0" FriendlyName="C:\Windows\CCM\CIStore.dll FileAttribute" FileName="CIStore.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_16E_0" FriendlyName="C:\Windows\CCM\cistore_ps.dll FileAttribute" FileName="cistore_ps.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_16F_0" FriendlyName="C:\Windows\CCM\CITaskMgr.dll FileAttribute" FileName="CITaskMgr.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_170_0" FriendlyName="C:\Windows\CCM\ClientServicing.dll FileAttribute" FileName="ClientServicing.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_171_0" FriendlyName="C:\Windows\CCM\ClientState.dll FileAttribute" FileName="ClientStates.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_172_0" FriendlyName="C:\Windows\CCM\clievent.dll FileAttribute" FileName="clievent.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_174_0" FriendlyName="C:\Windows\CCM\climsgs.dll FileAttribute" FileName="climsgs.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_175_0" FriendlyName="C:\Windows\CCM\CMBITSManager.dll FileAttribute" FileName="CMBITSManager.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_176_0" FriendlyName="C:\Windows\CCM\CMHttpsReadiness.exe FileAttribute" FileName="CMHttpsReadiness.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_177_0" FriendlyName="C:\Windows\CCM\CMTrace.exe FileAttribute" FileName="CMTrace_x86.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_178_0" FriendlyName="C:\Windows\CCM\CoManagementHandler.dll FileAttribute" FileName="CoManagementHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_179_0" FriendlyName="C:\Windows\CCM\CommonUtils.dll FileAttribute" FileName="CommonUtils.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_17A_0" FriendlyName="C:\Windows\CCM\ComplianceHandler.dll FileAttribute" FileName="ComplianceHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_17B_0" FriendlyName="C:\Windows\CCM\ComplRelayEndpoint.dll FileAttribute" FileName="ComplRelayEndpoint.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_17D_0" FriendlyName="C:\Windows\CCM\ConfigMgrSupportCenter.Common.dll FileAttribute" FileName="ConfigMgrSupportCenter.Common.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_17F_0" FriendlyName="C:\Windows\CCM\ConfigMgrSupportCenter.DataCollector.dll FileAttribute" FileName="ConfigMgrSupportCenter.DataCollector.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_181_0" FriendlyName="C:\Windows\CCM\ConfigMgrSupportCenter.LogEngine.dll FileAttribute" FileName="ConfigMgrSupportCenter.LogEngine.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_183_0" FriendlyName="C:\Windows\CCM\ConfigMgrSupportCenter.Resources.dll FileAttribute" FileName="ConfigMgrSupportCenter.Resources.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_185_0" FriendlyName="C:\Windows\CCM\ConnectivityDiagnosis.exe FileAttribute" FileName="ConnectivityDiagnosis.exe" MinimumFileVersion="10.0.18286.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_186_0" FriendlyName="C:\Windows\CCM\ContentAccess.dll FileAttribute" FileName="ContentAccess.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_187_0" FriendlyName="C:\Windows\CCM\ContentAccess_ps.dll FileAttribute" FileName="ContentAccess_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_188_0" FriendlyName="C:\Windows\CCM\CPApplet.dll FileAttribute" FileName="cpapplet.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_189_0" FriendlyName="C:\Windows\CCM\cpapplet_ps.dll FileAttribute" FileName="cpapplet_ps.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_18A_0" FriendlyName="C:\Windows\CCM\DCMADQueryProvider.dll FileAttribute" FileName="DCMADQueryProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_18B_0" FriendlyName="C:\Windows\CCM\dcmagent.dll FileAttribute" FileName="DCMAgent.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_18C_0" FriendlyName="C:\Windows\CCM\dcmagent_ps.dll FileAttribute" FileName="dcmagent_ps.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_18D_0" FriendlyName="C:\Windows\CCM\DCMAssemblyProvider.dll FileAttribute" FileName="DcmAssemblyProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_18E_0" FriendlyName="C:\Windows\CCM\DCMIISMetabaseProvider.dll FileAttribute" FileName="DCMIISMetabaseProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_18F_0" FriendlyName="C:\Windows\CCM\DCMReporting.dll FileAttribute" FileName="DCMReporting.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_190_0" FriendlyName="C:\Windows\CCM\DCMSQLQueryProvider.dll FileAttribute" FileName="DCMSQLQueryProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_191_0" FriendlyName="C:\Windows\CCM\DcmSUMProvider.dll FileAttribute" FileName="DcmSUMProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_192_0" FriendlyName="C:\Windows\CCM\DCMWQLQueryProvider.dll FileAttribute" FileName="DCMWQLQueryProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_193_0" FriendlyName="C:\Windows\CCM\DCMXPathQueryProvider.dll FileAttribute" FileName="DCMXPathQueryProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_194_0" FriendlyName="C:\Windows\CCM\ddrprov.dll FileAttribute" FileName="ddrprov.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_195_0" FriendlyName="C:\Windows\CCM\DeltaDownload.dll FileAttribute" FileName="DeltaDownload.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_196_0" FriendlyName="C:\Windows\CCM\DetailedAppInfo.dll FileAttribute" FileName="DetailedAppInfo.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_197_0" FriendlyName="C:\Windows\CCM\DeviceGuardHandler.dll FileAttribute" FileName="DeviceGuardHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_198_0" FriendlyName="C:\Windows\CCM\Diagnostics.dll FileAttribute" FileName="Diagnostics.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_199_0" FriendlyName="C:\Windows\CCM\dvcprov.dll FileAttribute" FileName="dvcprov.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_19A_0" FriendlyName="C:\Windows\CCM\EdgeBrowserHandler.dll FileAttribute" FileName="EdgeBrowserHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_19B_0" FriendlyName="C:\Windows\CCM\EmbeddedInventoryProvider.dll FileAttribute" FileName="EmbeddedInventoryProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_19C_0" FriendlyName="C:\Windows\CCM\EndpointProtectionEndpoint.dll FileAttribute" FileName="EndpointProtectionEndpoint.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_19D_0" FriendlyName="C:\Windows\CCM\EvenProv.dll FileAttribute" FileName="EvenProv.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_19E_0" FriendlyName="C:\Windows\CCM\ExecEngn.dll FileAttribute" FileName="ExecEngn.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_19F_0" FriendlyName="C:\Windows\CCM\execmgr.dll FileAttribute" FileName="ExecMgr.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1A0_0" FriendlyName="C:\Windows\CCM\ExecMgr_ps.dll FileAttribute" FileName="ExecMgr_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1A1_0" FriendlyName="C:\Windows\CCM\ExploitGuardHandler.dll FileAttribute" FileName="ExploitGuardHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1A2_0" FriendlyName="C:\Windows\CCM\ExpressionSolver.dll FileAttribute" FileName="ExpressionSolver.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1A3_0" FriendlyName="C:\Windows\CCM\ExternalEventEndpoint.dll FileAttribute" FileName="ExternalEventEndpoint.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1A4_0" FriendlyName="C:\Windows\CCM\FrameworkPerf.dll FileAttribute" FileName="FrameworkPerf.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1A5_0" FriendlyName="C:\Windows\CCM\fsputillib.dll FileAttribute" FileName="FSPUtilLib.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1A6_0" FriendlyName="C:\Windows\CCM\InvCollectionTask.dll FileAttribute" FileName="InvCollectionTask.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1A7_0" FriendlyName="C:\Windows\CCM\InvDataStore.dll FileAttribute" FileName="InvDataStore.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1A8_0" FriendlyName="C:\Windows\CCM\InvEndPoint.dll FileAttribute" FileName="InvEndPoint.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1A9_0" FriendlyName="C:\Windows\CCM\InventoryProvider.dll FileAttribute" FileName="InventoryProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1AA_0" FriendlyName="C:\Windows\CCM\InvFileCollectionTask.dll FileAttribute" FileName="InvFileCollectionTask.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1AB_0" FriendlyName="C:\Windows\CCM\InvFileSystemCollectionTask.dll FileAttribute" FileName="InvFileSystemCollectionTask.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1AC_0" FriendlyName="C:\Windows\CCM\InvFileSystemQueryTask.dll FileAttribute" FileName="InvFileSystemQueryTask.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1AD_0" FriendlyName="C:\Windows\CCM\InvReportTask.dll FileAttribute" FileName="InvReportTask.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1AE_0" FriendlyName="C:\Windows\CCM\librdc.dll FileAttribute" FileName="LibRDC.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1AF_0" FriendlyName="C:\Windows\CCM\LocalAppHandler.dll FileAttribute" FileName="LocalAppHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1B0_0" FriendlyName="C:\Windows\CCM\LSInterface.dll FileAttribute" FileName="LSInterface.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1B1_0" FriendlyName="C:\Windows\CCM\LSUtilities.dll FileAttribute" FileName="LSUtilities.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1B2_0" FriendlyName="C:\Windows\CCM\M365AHandler.dll FileAttribute" FileName="M365AHandler.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1B3_0" FriendlyName="C:\Windows\CCM\MaintenanceCoordinator.dll FileAttribute" FileName="MaintenanceCoordinator.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1B4_0" FriendlyName="C:\Windows\CCM\MaintenanceModeManager.dll FileAttribute" FileName="MaintenanceModeManager.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1B5_0" FriendlyName="C:\Windows\CCM\McsClient.exe FileAttribute" FileName="McsClient.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1B7_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManagement.Messaging.dll FileAttribute" FileName="Microsoft.ConfigurationManagement.Messaging.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1B9_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManagement.Security.Cryptography.dll FileAttribute" FileName="Microsoft.ConfigurationManagement.Security.Cryptography.dll" MinimumFileVersion="5.2103.1095.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1BB_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManagement.SensorFramework.dll FileAttribute" FileName="Microsoft.ConfigurationManagement.SensorFramework.dll" MinimumFileVersion="6.2103.27.3015" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1BD_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManager.ADAL.dll FileAttribute" FileName="Microsoft.ConfigurationManager.ADAL.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1BF_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManager.AssetProvider.dll FileAttribute" FileName="Microsoft.ConfigurationManager.AssetProvider.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1C1_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManager.DefaultAppsProvider.dll FileAttribute" FileName="Microsoft.ConfigurationManager.DefaultAppsProvider.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1C3_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManager.SensorManagedProvider.dll FileAttribute" FileName="Microsoft.ConfigurationManager.SensorManagedProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1C5_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManager.SVProvider.dll FileAttribute" FileName="Microsoft.ConfigurationManager.SVProvider.dll" MinimumFileVersion="5.0.9049.1002" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1C7_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManager.WinRTProvider.dll FileAttribute" FileName="Microsoft.ConfigurationManager.WinRTProvider.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1C9_0" FriendlyName="C:\Windows\CCM\Microsoft.ConfigurationManager.WinStoreAppSettings.dll FileAttribute" FileName="Microsoft.ConfigurationManager.WinStoreAppSettings.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1CB_0" FriendlyName="C:\Windows\CCM\Microsoft.Diagnostics.FastSerialization.dll FileAttribute" FileName="Microsoft.Diagnostics.FastSerialization.dll" MinimumFileVersion="1.0.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1CD_0" FriendlyName="C:\Windows\CCM\Microsoft.Diagnostics.Tracing.TraceEvent.dll FileAttribute" FileName="Microsoft.Diagnostics.Tracing.TraceEvent.dll" MinimumFileVersion="2.0.45.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1CF_0" FriendlyName="C:\Windows\CCM\Microsoft.IdentityModel.Clients.ActiveDirectory.dll FileAttribute" FileName="Microsoft.IdentityModel.Clients.ActiveDirectory.dll" MinimumFileVersion="3.19.50615.2240" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1D0_0" FriendlyName="C:\Windows\CCM\mifprov.dll FileAttribute" FileName="mifprov.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1D1_0" FriendlyName="C:\Windows\CCM\MsiHandler.dll FileAttribute" FileName="MsiHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1D2_0" FriendlyName="C:\Windows\CCM\MtrMgr.dll FileAttribute" FileName="mtrmgr.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1D3_0" FriendlyName="C:\Windows\CCM\OfficeAnalytics.dll FileAttribute" FileName="OfficeAnalytics.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1D4_0" FriendlyName="C:\Windows\CCM\OfficeInventory.dll FileAttribute" FileName="OfficeInventory.dll" MinimumFileVersion="2006.0.13.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1D5_0" FriendlyName="C:\Windows\CCM\OSDBitLocker.exe FileAttribute" FileName="OSDBitLocker.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1D6_0" FriendlyName="C:\Windows\CCM\OSDCore.dll FileAttribute" FileName="OSDCore.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1D7_0" FriendlyName="C:\Windows\CCM\OSDDiskPart.exe FileAttribute" FileName="osddiskpart.exe" MinimumFileVersion="5.0.9049.1003" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1D8_0" FriendlyName="C:\Windows\CCM\OSDDownloadContent.exe FileAttribute" FileName="OSDDownloadContent.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1D9_0" FriendlyName="C:\Windows\CCM\OSDJoin.exe FileAttribute" FileName="OsdJoin.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1DA_0" FriendlyName="C:\Windows\CCM\OsdMigrateUserState.exe FileAttribute" FileName="osdmigrateuserstate.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1DB_0" FriendlyName="C:\Windows\CCM\OSDNetSettings.exe FileAttribute" FileName="osdnetsettings.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1DC_0" FriendlyName="C:\Windows\CCM\OSDPrepareOS.exe FileAttribute" FileName="osdprepareos.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1DD_0" FriendlyName="C:\Windows\CCM\OSDPrepareSmsClient.exe FileAttribute" FileName="osdpreparesmsclient.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1DE_0" FriendlyName="C:\Windows\CCM\OSDPrestartCheck.exe FileAttribute" FileName="osdprestartcheck.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1DF_0" FriendlyName="C:\Windows\CCM\OSDRunPowerShellScript.exe FileAttribute" FileName="OSDRunPowerShellScript.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1E0_0" FriendlyName="C:\Windows\CCM\OSDSetDynamicVariables.exe FileAttribute" FileName="OSDSetDynamicVariables.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1E1_0" FriendlyName="C:\Windows\CCM\OSDSetupWindows.exe FileAttribute" FileName="OSDSetupWindows.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1E2_0" FriendlyName="C:\Windows\CCM\OSDSmpClient.exe FileAttribute" FileName="osdsmpclient.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1E3_0" FriendlyName="C:\Windows\CCM\OSDUpgradeOS.exe FileAttribute" FileName="OSDUpgradeWindows.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1E4_0" FriendlyName="C:\Windows\CCM\OSDWinSettings.exe FileAttribute" FileName="OSDWinSettings.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1E5_0" FriendlyName="C:\Windows\CCM\OsEditionUpgradeProvider.dll FileAttribute" FileName="OsEditionUpgradeProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1E7_0" FriendlyName="C:\Windows\CCM\OSExtensions.dll FileAttribute" FileName="OSExtensions.dll" MinimumFileVersion="1.0.0.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1E8_0" FriendlyName="C:\Windows\CCM\pdpagent.dll FileAttribute" FileName="Pdpagent.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1E9_0" FriendlyName="C:\Windows\CCM\PlatformSettingsHandler.dll FileAttribute" FileName="PlatformSettingsHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1EA_0" FriendlyName="C:\Windows\CCM\PolicyAgent.dll FileAttribute" FileName="PolicyAgent.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1EB_0" FriendlyName="C:\Windows\CCM\PolicyAgentEndpoint.dll FileAttribute" FileName="PolicyAgentEndpoint.dll" MinimumFileVersion="5.0.9049.1009" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1EC_0" FriendlyName="C:\Windows\CCM\PolicyAgentProvider.dll FileAttribute" FileName="PolicyAgentProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1ED_0" FriendlyName="C:\Windows\CCM\Prep.dll FileAttribute" FileName="Prep.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1F0_0" FriendlyName="C:\Windows\CCM\PwrAgentEndpoint.dll FileAttribute" FileName="PwrAgentEndpoint.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1F1_0" FriendlyName="C:\Windows\CCM\PwrEventTask.dll FileAttribute" FileName="PwrEventMonTask.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1F2_0" FriendlyName="C:\Windows\CCM\PwrHinvProv.dll FileAttribute" FileName="PwrHinvProv.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1F3_0" FriendlyName="C:\Windows\CCM\RAXHandler.dll FileAttribute" FileName="RAXHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1F4_0" FriendlyName="C:\Windows\CCM\rebootcoord.dll FileAttribute" FileName="rebootcoord.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1F5_0" FriendlyName="C:\Windows\CCM\RebootCoord_ps.dll FileAttribute" FileName="RebootCoord_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1F6_0" FriendlyName="C:\Windows\CCM\RemediationScriptHandler.dll FileAttribute" FileName="RemediationScriptHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1F7_0" FriendlyName="C:\Windows\CCM\RTConfiguration.dll FileAttribute" FileName="RTConfiguration.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1F8_0" FriendlyName="C:\Windows\CCM\RTConfig_ps.dll FileAttribute" FileName="RTConfig_ps.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1F9_0" FriendlyName="C:\Windows\CCM\RTEndPoint.dll FileAttribute" FileName="RTEndPoint.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1FA_0" FriendlyName="C:\Windows\CCM\ScanAgent.dll FileAttribute" FileName="ScanAgent.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1FB_0" FriendlyName="C:\Windows\CCM\ScanAgent_ps.dll FileAttribute" FileName="ScanAgent_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1FC_0" FriendlyName="C:\Windows\CCM\Sched.dll FileAttribute" FileName="Sched.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1FD_0" FriendlyName="C:\Windows\CCM\Sched_ps.dll FileAttribute" FileName="Sched_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1FF_0" FriendlyName="C:\Windows\CCM\SCNotification.exe FileAttribute" FileName="SCNotification.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_200_0" FriendlyName="C:\Windows\CCM\ScriptHandler.dll FileAttribute" FileName="ScriptHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_201_0" FriendlyName="C:\Windows\CCM\ScriptProvider.dll FileAttribute" FileName="ScriptProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_202_0" FriendlyName="C:\Windows\CCM\Scripts.dll FileAttribute" FileName="Scripts.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_204_0" FriendlyName="C:\Windows\CCM\SCToastNotification.exe FileAttribute" FileName="SCToastNotification.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_205_0" FriendlyName="C:\Windows\CCM\SCUpdateMgr.dll FileAttribute" FileName="SCUpdateMgr.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_206_0" FriendlyName="C:\Windows\CCM\SensorEndpoint.dll FileAttribute" FileName="SensorEndpoint.dll" MinimumFileVersion="5.0.9049.1003" />
+    <FileAttrib ID="ID_FILEATTRIB_F_208_0" FriendlyName="C:\Windows\CCM\SensorLogonTask.exe FileAttribute" FileName="SensorLogonTask.exe" MinimumFileVersion="6.2103.27.3009" />
+    <FileAttrib ID="ID_FILEATTRIB_F_209_0" FriendlyName="C:\Windows\CCM\SensorWmiProvider.dll FileAttribute" FileName="SensorWmiProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_20A_0" FriendlyName="C:\Windows\CCM\settingsagent.dll FileAttribute" FileName="SettingsAgent.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_20B_0" FriendlyName="C:\Windows\CCM\settingsagent_ps.dll FileAttribute" FileName="settingsagent_ps.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_20C_0" FriendlyName="C:\Windows\CCM\SettingsRegistryHandler.dll FileAttribute" FileName="SettingsRegistryHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_20D_0" FriendlyName="C:\Windows\CCM\SettingsWMIHandler.dll FileAttribute" FileName="SettingsWMIHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_20E_0" FriendlyName="C:\Windows\CCM\ShellExecuteMSStore.exe FileAttribute" FileName="ShellExecuteMSStore.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_20F_0" FriendlyName="C:\Windows\CCM\smsappinstall.exe FileAttribute" FileName="smsappinstall.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_210_0" FriendlyName="C:\Windows\CCM\SMSARPPub.dll FileAttribute" FileName="SMSARPPub.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_211_0" FriendlyName="C:\Windows\CCM\smsboot.exe FileAttribute" FileName="smsboot.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_212_0" FriendlyName="C:\Windows\CCM\smsccmld.dll FileAttribute" FileName="SMSCCMLD.DLL" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_213_0" FriendlyName="C:\Windows\CCM\SMSCFGRC.cpl FileAttribute" FileName="smscfgrc.cpl" MinimumFileVersion="5.0.8688.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_214_0" FriendlyName="C:\Windows\CCM\smsclient.dll FileAttribute" FileName="smsclient.dll" MinimumFileVersion="5.0.9049.1003" />
+    <FileAttrib ID="ID_FILEATTRIB_F_215_0" FriendlyName="C:\Windows\CCM\smsclient_ps.dll FileAttribute" FileName="smsclient_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_216_0" FriendlyName="C:\Windows\CCM\smscore.dll FileAttribute" FileName="smscore.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_217_0" FriendlyName="C:\Windows\CCM\smscstat.dll FileAttribute" FileName="smscstat.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_218_0" FriendlyName="C:\Windows\CCM\SmsEventLog.dll FileAttribute" FileName="SmsEventLog.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_219_0" FriendlyName="C:\Windows\CCM\smsnetuse.exe FileAttribute" FileName="smsnetuse.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_21A_0" FriendlyName="C:\Windows\CCM\smsproc.dll FileAttribute" FileName="SMSproc.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_21B_0" FriendlyName="C:\Windows\CCM\SmsSdmObjects.dll FileAttribute" FileName="SMSSDMOBJECTS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_21C_0" FriendlyName="C:\Windows\CCM\smsswd.exe FileAttribute" FileName="smsswd.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_21D_0" FriendlyName="C:\Windows\CCM\SoftwareCenterSystemTasks.dll FileAttribute" FileName="SoftwareCenterSystemTasks.dll" MinimumFileVersion="5.0.9049.1003" />
+    <FileAttrib ID="ID_FILEATTRIB_F_21E_0" FriendlyName="C:\Windows\CCM\SoftwareCenterSystemTasks_ps.dll FileAttribute" FileName="softwarecentersystemtasks_ps.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_225_0" FriendlyName="C:\Windows\CCM\SrcUpdateMgr.dll FileAttribute" FileName="SrcUpdateMgr.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_226_0" FriendlyName="C:\Windows\CCM\SrcUpdateMgr_ps.dll FileAttribute" FileName="SrcUpdateMgr_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_227_0" FriendlyName="C:\Windows\CCM\SrvWinMgr.dll FileAttribute" FileName="srvwinmgr.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_228_0" FriendlyName="C:\Windows\CCM\SrvWinMgr_ps.dll FileAttribute" FileName="SrvWinMgr_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_229_0" FriendlyName="C:\Windows\CCM\StandardEventForwarder.dll FileAttribute" FileName="StandardEventForwarder.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_22A_0" FriendlyName="C:\Windows\CCM\StateMessage.dll FileAttribute" FileName="StateMessage.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_22B_0" FriendlyName="C:\Windows\CCM\StateMessageProvider.dll FileAttribute" FileName="StateMessageProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_22C_0" FriendlyName="C:\Windows\CCM\StateMessage_ps.dll FileAttribute" FileName="StateMessage_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_22D_0" FriendlyName="C:\Windows\CCM\StatusAgent.dll FileAttribute" FileName="StatusAgent.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_22E_0" FriendlyName="C:\Windows\CCM\StatusAgentProxy.dll FileAttribute" FileName="StatusAgentProxy.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_22F_0" FriendlyName="C:\Windows\CCM\swmreport.dll FileAttribute" FileName="SWMReport.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_230_0" FriendlyName="C:\Windows\CCM\systemperf.dll FileAttribute" FileName="systemperf.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_231_0" FriendlyName="C:\Windows\CCM\TSAgent.dll FileAttribute" FileName="TSAgent.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_232_0" FriendlyName="C:\Windows\CCM\TSCore.dll FileAttribute" FileName="TSCore.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_233_0" FriendlyName="C:\Windows\CCM\TSD.exe FileAttribute" FileName="TSD.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_234_0" FriendlyName="C:\Windows\CCM\TSDTHandler.dll FileAttribute" FileName="TSDTHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_235_0" FriendlyName="C:\Windows\CCM\tsenv.exe FileAttribute" FileName="TSEnv.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_236_0" FriendlyName="C:\Windows\CCM\TSInstallSWUpdate.exe FileAttribute" FileName="TSInstallSWUpdate.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_237_0" FriendlyName="C:\Windows\CCM\TSManager.exe FileAttribute" FileName="TSManager.exe" MinimumFileVersion="5.0.9049.1003" />
+    <FileAttrib ID="ID_FILEATTRIB_F_238_0" FriendlyName="C:\Windows\CCM\TSMBootstrap.exe FileAttribute" FileName="TSMBootstrap.exe" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_239_0" FriendlyName="C:\Windows\CCM\TSMessaging.dll FileAttribute" FileName="TSMessaging.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_23A_0" FriendlyName="C:\Windows\CCM\TSPLaunch.exe FileAttribute" FileName="TSPLaunch.exe" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_23B_0" FriendlyName="C:\Windows\CCM\TsProgressUI.exe FileAttribute" FileName="TsProgressUI.exe" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_23D_0" FriendlyName="C:\Windows\CCM\tsresnlc.dll FileAttribute" FileName="tsresnlc.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_23E_0" FriendlyName="C:\Windows\CCM\UDAProvider.dll FileAttribute" FileName="UDAProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_23F_0" FriendlyName="C:\Windows\CCM\UDProvider.dll FileAttribute" FileName="UDProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_240_0" FriendlyName="C:\Windows\CCM\UIEvent.dll FileAttribute" FileName="UIEvent.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_241_0" FriendlyName="C:\Windows\CCM\UIResource.dll FileAttribute" FileName="UIResource.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_242_0" FriendlyName="C:\Windows\CCM\UIResource_ps.dll FileAttribute" FileName="uiresource_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_243_0" FriendlyName="C:\Windows\CCM\UpdatesDeployment.dll FileAttribute" FileName="UpdatesDeployment.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_244_0" FriendlyName="C:\Windows\CCM\UpdatesDeployment_ps.dll FileAttribute" FileName="UpdatesDeployment_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_245_0" FriendlyName="C:\Windows\CCM\UpdatesHandler.dll FileAttribute" FileName="UpdatesHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_246_0" FriendlyName="C:\Windows\CCM\UpdatesStore.dll FileAttribute" FileName="UpdatesStore.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_247_0" FriendlyName="C:\Windows\CCM\UpdatesStore_ps.dll FileAttribute" FileName="UpdatesStore_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_248_0" FriendlyName="C:\Windows\CCM\UpdateTrustedSites.exe FileAttribute" FileName="UpdateTrustedSites.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_249_0" FriendlyName="C:\Windows\CCM\UserAffinityProvider.dll FileAttribute" FileName="UserAffinityProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_24A_0" FriendlyName="C:\Windows\CCM\UsmProv.dll FileAttribute" FileName="UsmProv.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_24B_0" FriendlyName="C:\Windows\CCM\VAppCollector.exe FileAttribute" FileName="VAppCollector.EXE" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_24C_0" FriendlyName="C:\Windows\CCM\VAppLauncher.exe FileAttribute" FileName="VAppLauncher.exe" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_24D_0" FriendlyName="C:\Windows\CCM\VAppLaunchMgr.dll FileAttribute" FileName="VAppLaunchMgr.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_24E_0" FriendlyName="C:\Windows\CCM\VAppLaunchMgr_ps.dll FileAttribute" FileName="VAppLaunchMgr_PS.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_24F_0" FriendlyName="C:\Windows\CCM\VEProvider.dll FileAttribute" FileName="VEProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_250_0" FriendlyName="C:\Windows\CCM\WATPProvider.dll FileAttribute" FileName="WATPProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_251_0" FriendlyName="C:\Windows\CCM\WebAppHandler.dll FileAttribute" FileName="WebAppHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_252_0" FriendlyName="C:\Windows\CCM\WindowsAnalytics.dll FileAttribute" FileName="WindowsAnalytics.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_253_0" FriendlyName="C:\Windows\CCM\WMIDiscoverySource.dll FileAttribute" FileName="WMIDiscoverySource.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_254_0" FriendlyName="C:\Windows\CCM\WPJProvider.dll FileAttribute" FileName="WPJProvider.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_255_0" FriendlyName="C:\Windows\CCM\WriteFilterLoggingLibrary.dll FileAttribute" FileName="WriteFilterLoggingLibrary.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_256_0" FriendlyName="C:\Windows\CCM\WriteFilterWriteThroughLibrary.dll FileAttribute" FileName="WriteFilterWriteThroughLibrary.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_257_0" FriendlyName="C:\Windows\CCM\WUAHandler.dll FileAttribute" FileName="WUAHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_258_0" FriendlyName="C:\Windows\CCM\WUfBHandler.dll FileAttribute" FileName="WUfBHandler.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_259_0" FriendlyName="C:\Windows\System32\mfc120.dll FileAttribute" FileName="MFC120.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_25B_0" FriendlyName="C:\Windows\System32\mfc120chs.dll FileAttribute" FileName="MFC120CHS.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_25D_0" FriendlyName="C:\Windows\System32\mfc120cht.dll FileAttribute" FileName="MFC120CHT.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_25F_0" FriendlyName="C:\Windows\System32\mfc120deu.dll FileAttribute" FileName="MFC120DEU.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_261_0" FriendlyName="C:\Windows\System32\mfc120enu.dll FileAttribute" FileName="MFC120ENU.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_263_0" FriendlyName="C:\Windows\System32\mfc120esn.dll FileAttribute" FileName="MFC120ESN.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_265_0" FriendlyName="C:\Windows\System32\mfc120fra.dll FileAttribute" FileName="MFC120FRA.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_267_0" FriendlyName="C:\Windows\System32\mfc120ita.dll FileAttribute" FileName="MFC120ITA.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_269_0" FriendlyName="C:\Windows\System32\mfc120jpn.dll FileAttribute" FileName="MFC120JPN.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_26B_0" FriendlyName="C:\Windows\System32\mfc120kor.dll FileAttribute" FileName="MFC120KOR.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_26D_0" FriendlyName="C:\Windows\System32\mfc120rus.dll FileAttribute" FileName="MFC120RUS.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_26E_0" FriendlyName="C:\Windows\System32\mfc120u.dll FileAttribute" FileName="MFC120U.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_26F_0" FriendlyName="C:\Windows\System32\mfcm120.dll FileAttribute" FileName="MFCM120.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_270_0" FriendlyName="C:\Windows\System32\mfcm120u.dll FileAttribute" FileName="MFCM120U.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_271_0" FriendlyName="C:\Windows\System32\msvcp120.dll FileAttribute" FileName="msvcp120.dll" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_272_0" FriendlyName="C:\Windows\System32\msvcr120.dll FileAttribute" FileName="msvcr120.dll" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_273_0" FriendlyName="C:\Windows\System32\vcamp120.dll FileAttribute" FileName="VCAMP120.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_274_0" FriendlyName="C:\Windows\System32\vccorlib120.dll FileAttribute" FileName="vccorlib120.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_275_0" FriendlyName="C:\Windows\System32\vcomp120.dll FileAttribute" FileName="VCOMP120.DLL" MinimumFileVersion="12.0.40660.0" />
+    <FileAttrib ID="ID_FILEATTRIB_F_276_0" FriendlyName="C:\Windows\System32\ccmcore.dll FileAttribute" FileName="CCMCore.dll" MinimumFileVersion="5.0.9049.1001" />
+    <FileAttrib ID="ID_FILEATTRIB_F_277_0" FriendlyName="C:\Windows\System32\CcmUsrCse.dll FileAttribute" FileName="CcmUsrCse.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_278_0" FriendlyName="C:\Windows\System32\ISMIF32.dll FileAttribute" FileName="IsMIF32.dll" MinimumFileVersion="5.0.9049.1000" />
+    <FileAttrib ID="ID_FILEATTRIB_F_FD_0" FriendlyName="C:\Windows\CCM\ClientUX\Microsoft.Management.Services.SelfServicePortal.Common.dll FileAttribute" FileName="Microsoft.Management.Services.SelfServicePortal.Common.dll" MinimumFileVersion="4.1.2964.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_FF_0" FriendlyName="C:\Windows\CCM\ClientUX\Microsoft.Management.Services.SelfServicePortal.Common.Portable.dll FileAttribute" FileName="Microsoft.Management.Services.SelfServicePortal.Common.Portable.dll" MinimumFileVersion="6.0.2964.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_101_0" FriendlyName="C:\Windows\CCM\ClientUX\Microsoft.Management.Services.SelfServicePortal.DataAccess.dll FileAttribute" FileName="Microsoft.Management.Services.SelfServicePortal.DataAccess.dll" MinimumFileVersion="4.1.2964.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_103_0" FriendlyName="C:\Windows\CCM\ClientUX\Microsoft.Management.Services.SelfServicePortal.Plugins.dll FileAttribute" FileName="Microsoft.Management.Services.SelfServicePortal.Plugins.dll" MinimumFileVersion="6.0.2964.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_21F_0" FriendlyName="C:\Windows\CCM\sqlceca40.dll FileAttribute" FileName="SQLCECA" MinimumFileVersion="4.0.8904.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_220_0" FriendlyName="C:\Windows\CCM\sqlcecompact40.dll FileAttribute" FileName="SQLCECOMPACT" MinimumFileVersion="4.0.8904.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_221_0" FriendlyName="C:\Windows\CCM\sqlceer40EN.dll FileAttribute" FileName="SQLCEER" MinimumFileVersion="4.0.8904.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_222_0" FriendlyName="C:\Windows\CCM\sqlceoledb40.dll FileAttribute" FileName="SQLCEOLEDB" MinimumFileVersion="4.0.8904.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_223_0" FriendlyName="C:\Windows\CCM\sqlceqp40.dll FileAttribute" FileName="SQLCEQP" MinimumFileVersion="4.0.8904.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_224_0" FriendlyName="C:\Windows\CCM\sqlcese40.dll FileAttribute" FileName="SQLCESE" MinimumFileVersion="4.0.8904.1" />
+    <FileAttrib ID="ID_FILEATTRIB_F_105_0" FriendlyName="C:\Windows\CCM\ClientUX\Microsoft.Web.WebView2.Core.dll FileAttribute" FileName="Microsoft.Web.WebView2.Core.dll" MinimumFileVersion="1.0.664.37" />
+    <FileAttrib ID="ID_FILEATTRIB_F_107_0" FriendlyName="C:\Windows\CCM\ClientUX\Microsoft.Web.WebView2.Wpf.dll FileAttribute" FileName="Microsoft.Web.WebView2.Wpf.dll" MinimumFileVersion="1.0.664.37" />
+    <FileAttrib ID="ID_FILEATTRIB_F_116_0" FriendlyName="C:\Windows\CCM\ClientUX\WebView2Loader.dll FileAttribute" FileName="WebView2Loader.dll" MinimumFileVersion="1.0.664.37" />
+    <FileAttrib ID="ID_FILEATTRIB_F_1EF_0" FriendlyName="C:\Windows\CCM\PrepDrv.sys FileAttribute" FileName="PrepDrv.sys" MinimumFileVersion="5.0.7652.0" />
+    <Allow ID="ID_ALLOW_A_13_0" FriendlyName="C:\Windows\ccmsetup\client.msi Hash Sha1" Hash="775064BA4C767B7712B68584D351B6DAA34479C0" />
+    <Allow ID="ID_ALLOW_A_14_0" FriendlyName="C:\Windows\ccmsetup\client.msi Hash Sha256" Hash="EB99846581B812302C06C919216C192F2B9E5459E65627318EACD5E8412F324F" />
+    <Allow ID="ID_ALLOW_A_15_0" FriendlyName="C:\Windows\ccmsetup\client.msi Hash Authenticode SIP Sha256" Hash="8903BB104512CF88BA36BE10B560CC14CBA244BCAD54907D7E21EAD7038890ED" />
+    <Allow ID="ID_ALLOW_A_16_0" FriendlyName="C:\Windows\ccmsetup\MicrosoftPolicyPlatformSetup.msi Hash Sha1" Hash="8CAFEDBAE0333F56B5804959056A2E995BB1211E" />
+    <Allow ID="ID_ALLOW_A_17_0" FriendlyName="C:\Windows\ccmsetup\MicrosoftPolicyPlatformSetup.msi Hash Sha256" Hash="E7C1CC93DC460A5593249D62426C817AD06D4A42964D1A6476915F4AEB777680" />
+    <Allow ID="ID_ALLOW_A_18_0" FriendlyName="C:\Windows\ccmsetup\MicrosoftPolicyPlatformSetup.msi Hash Authenticode SIP Sha256" Hash="5D91FDE8D9A4274E31ABA8D8482D7A7216697FA10A8201A437689AB68BD9F813" />
+    <Allow ID="ID_ALLOW_A_19_0" FriendlyName="C:\Windows\ccmsetup\WindowsFirewallConfigurationProvider.msi Hash Sha1" Hash="C1CB7638148D67574CB5745CCDE164CA7F97ADE3" />
+    <Allow ID="ID_ALLOW_A_1A_0" FriendlyName="C:\Windows\ccmsetup\WindowsFirewallConfigurationProvider.msi Hash Sha256" Hash="210CD954AE70B349642B4A7814D5B5513998EE667438C7423F0FAC47EEFA1101" />
+    <Allow ID="ID_ALLOW_A_1B_0" FriendlyName="C:\Windows\ccmsetup\WindowsFirewallConfigurationProvider.msi Hash Authenticode SIP Sha256" Hash="EAFE4FC9AD94783D860202A2765C6224421B629B264B7949176F3F69D762AF79" />
+    <Allow ID="ID_ALLOW_A_1C_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_AuthoredConfigPointReport.mof Hash Sha1" Hash="A6A68296D90D1E421DFC65EBE39FE870C60B8714" />
+    <Allow ID="ID_ALLOW_A_1D_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_AuthoredConfigPointReport.mof Hash Sha256" Hash="8E56134E1E38A5817C864042FD8A0A3016D2547A7D637DA9C46F6D5A34A0B92F" />
+    <Allow ID="ID_ALLOW_A_1E_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_AuthoredConfigPointReport.mof Hash Authenticode SIP Sha256" Hash="312148FEAE04CAF5A40933F333E83BF3318285632680E0680BAE1E7CEBF5EFDF" />
+    <Allow ID="ID_ALLOW_A_1F_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_ContributionReport.mof Hash Sha1" Hash="A3236CAE803AECC2A4AC008D35474CECDD7BFD5C" />
+    <Allow ID="ID_ALLOW_A_20_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_ContributionReport.mof Hash Sha256" Hash="C50CBEBB97584C633F603C97F897F5402F9B6634559DB6A5C4E8C963452FB287" />
+    <Allow ID="ID_ALLOW_A_21_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_ContributionReport.mof Hash Authenticode SIP Sha256" Hash="560863CD3F7D7AB9C1CBFE05C4E9465CA61BD805126D45E7FB94705912515322" />
+    <Allow ID="ID_ALLOW_A_22_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_Document.mof Hash Sha1" Hash="D95862BB11090C5694444D3FB11C9C802F804273" />
+    <Allow ID="ID_ALLOW_A_23_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_Document.mof Hash Sha256" Hash="89E1C8E8445BE1DF539C0FC426AD9B54A2FB19C506DCFE9E372AC302D46C5410" />
+    <Allow ID="ID_ALLOW_A_24_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_Document.mof Hash Authenticode SIP Sha256" Hash="7B53B009AC7640662515B6B867FB990DA011390DC5DF300E4FE45764A5822D74" />
+    <Allow ID="ID_ALLOW_A_25_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_IdMapping.mof Hash Sha1" Hash="DB57A6FF6FA5D2E7C5F9AA49AAFD0CC4A4C7B038" />
+    <Allow ID="ID_ALLOW_A_26_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_IdMapping.mof Hash Sha256" Hash="14496463553733B37486713FC85B6E79D699E9E2672EDA5DF6AAEABB7FD6951B" />
+    <Allow ID="ID_ALLOW_A_27_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_IdMapping.mof Hash Authenticode SIP Sha256" Hash="D473C0F670049B961E3FA7F8D87ED4705179EDB4E888E76AC01F97230B28D921" />
+    <Allow ID="ID_ALLOW_A_28_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_InstanceConfigPointReport.mof Hash Sha1" Hash="D7A798FDC83D2A1C95CF2AD837D16782A733A120" />
+    <Allow ID="ID_ALLOW_A_29_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_InstanceConfigPointReport.mof Hash Sha256" Hash="44835A2EC35DDA54C7E8F6F8B678A7C65DAB447A8F4CE9662D7A434E856235BC" />
+    <Allow ID="ID_ALLOW_A_2A_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_InstanceConfigPointReport.mof Hash Authenticode SIP Sha256" Hash="8B9803B0C22940C597F120482E6FA17DE7B8A902BE463A4CBA7D89276D8DDE2A" />
+    <Allow ID="ID_ALLOW_A_2B_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_JobSummaryReport.mof Hash Sha1" Hash="E8A9153D171EAE0FF509A6A46D5332D87A716606" />
+    <Allow ID="ID_ALLOW_A_2C_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_JobSummaryReport.mof Hash Sha256" Hash="21C522F0414D71963779A4202EB363AACBE3E22BD097841FDE1ECA5AF06E28CB" />
+    <Allow ID="ID_ALLOW_A_2D_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_JobSummaryReport.mof Hash Authenticode SIP Sha256" Hash="B43B39C90CBA19A3CE2261C08A2E446439B1F3D57DDF51BF3C50A85F9E93B557" />
+    <Allow ID="ID_ALLOW_A_2E_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_MappingReport.mof Hash Sha1" Hash="6FD89E9D716DD6CED7C8B3F011C2EE85193D3888" />
+    <Allow ID="ID_ALLOW_A_2F_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_MappingReport.mof Hash Sha256" Hash="D11DC6E079567CC2211FD4A55565F26C19B43AF444653C0DF60A4B22AABEA35C" />
+    <Allow ID="ID_ALLOW_A_30_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_MappingReport.mof Hash Authenticode SIP Sha256" Hash="C8C1A79380F66B782AE7D7090D5261FE4ACC94E83C61094BAFB1A59E8C5972D7" />
+    <Allow ID="ID_ALLOW_A_31_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_ModelReports.mof Hash Sha1" Hash="1E7A63AFF6E307A5571451AD69295548C25B73DF" />
+    <Allow ID="ID_ALLOW_A_32_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_ModelReports.mof Hash Sha256" Hash="DFFB832BE8C507AAB10B234937AB6E407ABB80D2A5F478D334D38C40E8CC311E" />
+    <Allow ID="ID_ALLOW_A_33_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_ModelReports.mof Hash Authenticode SIP Sha256" Hash="EBAC53FB6203988E9B04A12028FE86FAAF566FBAC50CB6C49FF2D90818FE6F86" />
+    <Allow ID="ID_ALLOW_A_34_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_PolicyDocument.mof Hash Sha1" Hash="DADF614BC7434EACA56B0CA27D29034DF7E09814" />
+    <Allow ID="ID_ALLOW_A_35_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_PolicyDocument.mof Hash Sha256" Hash="E40373B5368E3AB77CB9638DA076CB36D18B0C8681B678C1593D01829560077F" />
+    <Allow ID="ID_ALLOW_A_36_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_PolicyDocument.mof Hash Authenticode SIP Sha256" Hash="CCE86B5DEAB39EF2F10523432E36A61D5DC0514F536B4E55F2C8E4BAF1457AF6" />
+    <Allow ID="ID_ALLOW_A_37_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_PrincipalBinding.mof Hash Sha1" Hash="77D436F4032605F73F84D4EFE2A9067CEA412ECE" />
+    <Allow ID="ID_ALLOW_A_38_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_PrincipalBinding.mof Hash Sha256" Hash="85BC32CAC80FCCC200143C0FE20271F5C01B228DE9ED590B455145F06140A868" />
+    <Allow ID="ID_ALLOW_A_39_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_PrincipalBinding.mof Hash Authenticode SIP Sha256" Hash="B48A8BC4BC0AD12A5BF0660A975EDDEE0F99474AD9A3799EF7A78C219C7936DE" />
+    <Allow ID="ID_ALLOW_A_3A_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_Qualifiers.mof Hash Sha1" Hash="074ABF8EA41EF402F3C8DDAE8CD8FF4AD4B89329" />
+    <Allow ID="ID_ALLOW_A_3B_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_Qualifiers.mof Hash Sha256" Hash="29E02E678AC037438E290B379F77A18193593C7691EBA3F5ED40A6A71C4F615A" />
+    <Allow ID="ID_ALLOW_A_3C_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_Qualifiers.mof Hash Authenticode SIP Sha256" Hash="9F689DC00D613CA53C523210900F04D1DBF68B76CF0D72957B87AD14F67BE0B1" />
+    <Allow ID="ID_ALLOW_A_3D_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_Report.mof Hash Sha1" Hash="F9F41004A308E1559612202BA3041A1E73697EA0" />
+    <Allow ID="ID_ALLOW_A_3E_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_Report.mof Hash Sha256" Hash="A123C5F7F5E787DBFE57B8D6E44D13E215EC6B7C35E88BAF2FCA664145D357C9" />
+    <Allow ID="ID_ALLOW_A_3F_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_Report.mof Hash Authenticode SIP Sha256" Hash="E001685A60EEDA4BB8D003208BE74F267CD730551C1F6A52070D4E35C57547EB" />
+    <Allow ID="ID_ALLOW_A_40_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_RulePrioritizationReport.mof Hash Sha1" Hash="294FF04D9915F30C7DCE0AF29ADE641284CDB6A5" />
+    <Allow ID="ID_ALLOW_A_41_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_RulePrioritizationReport.mof Hash Sha256" Hash="7FD941CBA16D642BB5A026DCE028E32B57A47483B6006E3190D8BC8F989E618D" />
+    <Allow ID="ID_ALLOW_A_42_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_RulePrioritizationReport.mof Hash Authenticode SIP Sha256" Hash="03522645E3E097B6600FEE5C62D58ECA442FE53EBF8E4CF27A96E180D5B7A588" />
+    <Allow ID="ID_ALLOW_A_43_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_RulePriority.mof Hash Sha1" Hash="67E10982F244C3B4AB02AFAF478B5014C4FB6231" />
+    <Allow ID="ID_ALLOW_A_44_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_RulePriority.mof Hash Sha256" Hash="E8091B78D2CF7C5676616892E5686847CF4B8C38CB70F591368D7AD107AD870F" />
+    <Allow ID="ID_ALLOW_A_45_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_RulePriority.mof Hash Authenticode SIP Sha256" Hash="41C2B902904254E4CD286053E4D0BBA44B71DBE4E53CBA91F1A354A33B50DFD6" />
+    <Allow ID="ID_ALLOW_A_46_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_RuleReport.mof Hash Sha1" Hash="06DCB83BAA13E034F7E6EAFA60930B93980B6D99" />
+    <Allow ID="ID_ALLOW_A_47_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_RuleReport.mof Hash Sha256" Hash="7F2B09925535FC2300615B971228D492BC49DE76CEBD81431A92FA1B6B53106E" />
+    <Allow ID="ID_ALLOW_A_48_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_RuleReport.mof Hash Authenticode SIP Sha256" Hash="5CE5F736369B4E9F5842D4188145A82160B8DA956E08517E0B66BAE6777DCEB2" />
+    <Allow ID="ID_ALLOW_A_49_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_RuleToStateReport.mof Hash Sha1" Hash="2DB0929CAB54C876C125EAF338A5D1470DD0DC65" />
+    <Allow ID="ID_ALLOW_A_4A_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_RuleToStateReport.mof Hash Sha256" Hash="857E504539A1B21F4CA10B7E0AFC4D407CFC57518E3D56C0B350ADE49425AFFD" />
+    <Allow ID="ID_ALLOW_A_4B_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_RuleToStateReport.mof Hash Authenticode SIP Sha256" Hash="A90C0F29121D4255580D7614A8FAA097CA77848420108C4E0AFF238FCAD19993" />
+    <Allow ID="ID_ALLOW_A_4C_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_SchemasUninstall.mof Hash Sha1" Hash="57415D70D5DB08144CA73594A8279FB8B82F5BCF" />
+    <Allow ID="ID_ALLOW_A_4D_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_SchemasUninstall.mof Hash Sha256" Hash="F34ACA438096DB8EF76CFF8B48FE11FDF23CC62992C80CA92BA298C34267F312" />
+    <Allow ID="ID_ALLOW_A_4E_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_SchemasUninstall.mof Hash Authenticode SIP Sha256" Hash="24B8E289650FBF5BA80C963677BE4B5554FFCFF61AAC27DE6F43198962622537" />
+    <Allow ID="ID_ALLOW_A_4F_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_StateReport.mof Hash Sha1" Hash="DE451A6804AE1089F87E17BD5E9666563FAA246E" />
+    <Allow ID="ID_ALLOW_A_50_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_StateReport.mof Hash Sha256" Hash="80E30233E0D0467FFE80B5DAAE86FBFA1A02C89FA57623CD56772206846E74C0" />
+    <Allow ID="ID_ALLOW_A_51_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_StateReport.mof Hash Authenticode SIP Sha256" Hash="4365E786A7E41DE21D45227036737689655601BE4874A2384C2770217945579A" />
+    <Allow ID="ID_ALLOW_A_52_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_StateToRuleReport.mof Hash Sha1" Hash="E6CB06873BE32EA2417800CD6018147A3EB10CAC" />
+    <Allow ID="ID_ALLOW_A_53_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_StateToRuleReport.mof Hash Sha256" Hash="A9055B7526F0595BEBD513DE24A7D329615020F546FE4BF7D4F44719BD7ED7B9" />
+    <Allow ID="ID_ALLOW_A_54_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_StateToRuleReport.mof Hash Authenticode SIP Sha256" Hash="D7795DF4E12DB58F329924573CA4D6530E613C0D1EC740B195CDF5E331F9D360" />
+    <Allow ID="ID_ALLOW_A_55_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_SyncDetailReport.mof Hash Sha1" Hash="45541379C5126F68F3662D0EE7070E294D6D6EF2" />
+    <Allow ID="ID_ALLOW_A_56_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_SyncDetailReport.mof Hash Sha256" Hash="DD1D7E9AA942C8653A80E1E81EEE7DF77248496BF6B431497B277ACEC0217E5A" />
+    <Allow ID="ID_ALLOW_A_57_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_SyncDetailReport.mof Hash Authenticode SIP Sha256" Hash="9E921240EB46A1D7FA5D1CF77653EFB273CC209F82CD4E401E84A753DFF51A18" />
+    <Allow ID="ID_ALLOW_A_58_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_SyncErrorReport.mof Hash Sha1" Hash="335D5F0EF4B2B9325CF4573792A5A4BB20AB60B1" />
+    <Allow ID="ID_ALLOW_A_59_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_SyncErrorReport.mof Hash Sha256" Hash="8205479F7D8758A097DF6420239D760537135445BC3FCB0EBCEC79358C4D5EB2" />
+    <Allow ID="ID_ALLOW_A_5A_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_SyncErrorReport.mof Hash Authenticode SIP Sha256" Hash="BDA9D635F989F6D81FD9A6EBCBEADA96615FFD1E28CAB0F81517CA15E385A8F2" />
+    <Allow ID="ID_ALLOW_A_5B_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_TattooDetectionReport.mof Hash Sha1" Hash="893E40F96C9A091CCFD5C55E204AC8D7FBFF3840" />
+    <Allow ID="ID_ALLOW_A_5C_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_TattooDetectionReport.mof Hash Sha256" Hash="B5852A1E566CE109C394B3502B35DB9214DE73E7FCDB558262BE7C4022DB3329" />
+    <Allow ID="ID_ALLOW_A_5D_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_TattooDetectionReport.mof Hash Authenticode SIP Sha256" Hash="B7CB25DCF5B40F4B58DF7A0E05273E14C57392D0E8FB7833CBA3F2633325C868" />
+    <Allow ID="ID_ALLOW_A_5E_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_TattooInversion.mof Hash Sha1" Hash="01D424ACD760BF1DB055D9D8C231EC1A4EA1FDFD" />
+    <Allow ID="ID_ALLOW_A_5F_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_TattooInversion.mof Hash Sha256" Hash="6A6A14C869FBCFE3F1E4215A2E7C8718A4C1F5D0C5B653156BA3B66D16511E3B" />
+    <Allow ID="ID_ALLOW_A_60_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\docns_TattooInversion.mof Hash Authenticode SIP Sha256" Hash="B9F1A1B23CC629C57C43FDB4287F09194DE033183694CDBE190AEB129D24B6FB" />
+    <Allow ID="ID_ALLOW_A_61_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\DocumentStore.mof Hash Sha1" Hash="EF9379651A13113719E91FF760B50ABB429C4202" />
+    <Allow ID="ID_ALLOW_A_62_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\DocumentStore.mof Hash Sha256" Hash="4572DF73F3E0A57FE9386814F1CAACD7F2FCAF9998C70E5DAFA856AFAC7C7D04" />
+    <Allow ID="ID_ALLOW_A_63_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\DocumentStore.mof Hash Authenticode SIP Sha256" Hash="9846F9C08EF419C62FA74BBDD49AC3B8C4F2571938849287CDB112508741C29F" />
+    <Allow ID="ID_ALLOW_A_64_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\Environment.mof Hash Sha1" Hash="7B5C72F95DD6260CFB9B0401F7A0F18F5855C4BF" />
+    <Allow ID="ID_ALLOW_A_65_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\Environment.mof Hash Sha256" Hash="2D654227D13B57BD9D40027ACF1B14119CCA33F0DA7E8BFF995A8C0492AA9C45" />
+    <Allow ID="ID_ALLOW_A_66_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\Environment.mof Hash Authenticode SIP Sha256" Hash="9C6C1FDEBC3BE731B57D6D69D679C3AB0CF6D2CFDECF606076F9AB0A7F8A859F" />
+    <Allow ID="ID_ALLOW_A_67_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\EnvironmentNamespace.mof Hash Sha1" Hash="8B98491440803E7F81FE98AE3B339DD90682DE6C" />
+    <Allow ID="ID_ALLOW_A_68_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\EnvironmentNamespace.mof Hash Sha256" Hash="33A70BB085F89DBD1123BBB8C0C88167066414D829A65531AD7614D657EEA6EA" />
+    <Allow ID="ID_ALLOW_A_69_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\EnvironmentNamespace.mof Hash Authenticode SIP Sha256" Hash="15A380CD50B0433B978BF8E68F0CA705485894C93447CCBE94EB36218D361857" />
+    <Allow ID="ID_ALLOW_A_6A_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\EnvironmentUninstall.mof Hash Sha1" Hash="3442EADA261D72F5C8B9F1D74113F85CBF1D9F03" />
+    <Allow ID="ID_ALLOW_A_6B_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\EnvironmentUninstall.mof Hash Sha256" Hash="33154997D9DCE81C5555CB21C587B0B836DF1EA3DD8F8C85CFD9B7020CB3DD96" />
+    <Allow ID="ID_ALLOW_A_6C_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\EnvironmentUninstall.mof Hash Authenticode SIP Sha256" Hash="2C86858DCE641E10D5F26402503A2FE12791A71CD0BF3AD053AD3A6F98CA69DC" />
+    <Allow ID="ID_ALLOW_A_6D_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\ExtendedStatus.mof Hash Sha1" Hash="302E10D4255EBA497A969E61EE9AE878FC976A45" />
+    <Allow ID="ID_ALLOW_A_6E_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\ExtendedStatus.mof Hash Sha256" Hash="E89054868461DD1BE8B8EB5612CC32FA180E22D1A3D3807D98B961E3803E4BE1" />
+    <Allow ID="ID_ALLOW_A_6F_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\ExtendedStatus.mof Hash Authenticode SIP Sha256" Hash="4F2C3DA0A37F831BDE09685E9E6F135B9E5B5BC6A58580D44CD8F1446D16E870" />
+    <Allow ID="ID_ALLOW_A_70_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\FileFolder.mof Hash Sha1" Hash="B5EF22D6358F32A2C123BB0767966C41C94F724A" />
+    <Allow ID="ID_ALLOW_A_71_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\FileFolder.mof Hash Sha256" Hash="B6A81AAECC6239B43AAA2607E77B4C35285632702746DFADB007212596E32981" />
+    <Allow ID="ID_ALLOW_A_72_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\FileFolder.mof Hash Authenticode SIP Sha256" Hash="FE0261BD285FA1FAF1F6D1D333932BA13D190ADED2F9987E31996DFCA60F5D62" />
+    <Allow ID="ID_ALLOW_A_73_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\FileFolderNamespace.mof Hash Sha1" Hash="EA9F5B5A018BAFD81E75D09B1BC30B5F1E997537" />
+    <Allow ID="ID_ALLOW_A_74_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\FileFolderNamespace.mof Hash Sha256" Hash="712E1D70CA31B7D48CB6547009FE94A3DB2CB00B23AF2E3BD3E48AA90072AED0" />
+    <Allow ID="ID_ALLOW_A_75_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\FileFolderNamespace.mof Hash Authenticode SIP Sha256" Hash="7FB6324AD729DBE284E8CFA81FF01B454E862A4F4F7CBE5FBE5EBCD742937961" />
+    <Allow ID="ID_ALLOW_A_76_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\FileFolderProvider.mof Hash Sha1" Hash="E3C17E7CE6D1422DDC2B59954DBD351F1AF06F2B" />
+    <Allow ID="ID_ALLOW_A_77_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\FileFolderProvider.mof Hash Sha256" Hash="9A647C7A2D4ECD304FB294302DE57E97A6AABA3FB4BE7621883DDFF247FA7710" />
+    <Allow ID="ID_ALLOW_A_78_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\FileFolderProvider.mof Hash Authenticode SIP Sha256" Hash="92D562CF7456D8269E631BDEBA8B25F22CE053596214173A54C65B04287E3DCA" />
+    <Allow ID="ID_ALLOW_A_79_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\FileFolderUninstall.mof Hash Sha1" Hash="CFEFFFD4F025D015B50249D530B229A1CC09A4F0" />
+    <Allow ID="ID_ALLOW_A_7A_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\FileFolderUninstall.mof Hash Sha256" Hash="BFF414ECA1A09FE1903B5945B7EBF4DBE0006AB998D7982300C8426707AC2F95" />
+    <Allow ID="ID_ALLOW_A_7B_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\FileFolderUninstall.mof Hash Authenticode SIP Sha256" Hash="261875226E076F5D0027DA61527F90E9F129910D4AA0EF332ABCD956D97353EA" />
+    <Allow ID="ID_ALLOW_A_7C_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\LpaUninstall.mof Hash Sha1" Hash="D544AD452C2D79748B4FC6808FE85136862283A5" />
+    <Allow ID="ID_ALLOW_A_7D_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\LpaUninstall.mof Hash Sha256" Hash="9C3C095201E475B55E93EAD9C29AEEB2F56AB80AB22621D74FA9C2C041B3E078" />
+    <Allow ID="ID_ALLOW_A_7E_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\LpaUninstall.mof Hash Authenticode SIP Sha256" Hash="4A4BBB5BBADD0A54B5957B731EB9709733C7570F96AEECC8F7F0B60C5B54F231" />
+    <Allow ID="ID_ALLOW_A_7F_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\PolicyProcessor.mof Hash Sha1" Hash="BD2311E17632436C804587A8DBCC891136F018AC" />
+    <Allow ID="ID_ALLOW_A_80_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\PolicyProcessor.mof Hash Sha256" Hash="C73C78E1A96E46F77E3D73A6838FC60A703C3847FE61248A365D8F115BF42A79" />
+    <Allow ID="ID_ALLOW_A_81_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\PolicyProcessor.mof Hash Authenticode SIP Sha256" Hash="794C0196F19653E68861E301A34FCCE4DCC0C9EE712F77ED69AB63E965270180" />
+    <Allow ID="ID_ALLOW_A_82_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\PolicyProcessorNamespace.mof Hash Sha1" Hash="844B2FD324196B91E5C34EAE60FDD69A9DE1AED6" />
+    <Allow ID="ID_ALLOW_A_83_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\PolicyProcessorNamespace.mof Hash Sha256" Hash="86203B49393DEAE6C009C81BF56CE3D3C774CED5F5AF590E970FA12B4F34D81C" />
+    <Allow ID="ID_ALLOW_A_84_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\PolicyProcessorNamespace.mof Hash Authenticode SIP Sha256" Hash="76B6FE3AD7BE99B59A9C51A2B1211D7E29E8A2536567E618318DCB01388DD4F8" />
+    <Allow ID="ID_ALLOW_A_85_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\PolicyProcessorProvider.mof Hash Sha1" Hash="DADAE7D5CC7A4CA4CB4EFE63321666DFCCAA98AE" />
+    <Allow ID="ID_ALLOW_A_86_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\PolicyProcessorProvider.mof Hash Sha256" Hash="0C01E3D84517042E1B6A14EF621149C7FD1F8D80FD542679A465C5430C88C58D" />
+    <Allow ID="ID_ALLOW_A_87_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\PolicyProcessorProvider.mof Hash Authenticode SIP Sha256" Hash="379A0CDA81B11240B87CFF18E6295C5904288E60884218DBA0D6565DBE429B81" />
+    <Allow ID="ID_ALLOW_A_88_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\PolicyProcessorUninstall.mof Hash Sha1" Hash="E63B679996E26FACB39B7C338742F90D06C1CEF4" />
+    <Allow ID="ID_ALLOW_A_89_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\PolicyProcessorUninstall.mof Hash Sha256" Hash="ADCD51C82A38F39FA251AB60C84DDF3CAB905A48B5EC44893ED587F95E7DBA6B" />
+    <Allow ID="ID_ALLOW_A_8A_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\PolicyProcessorUninstall.mof Hash Authenticode SIP Sha256" Hash="949A6F135B2AD3AA042986A5A11F5E3B74890738E6AB6EBF376E183677CB1EE1" />
+    <Allow ID="ID_ALLOW_A_8B_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\PostRemediationActions.mof Hash Sha1" Hash="E354DFC9ECC4FF67C24916891E595641EEEE7D67" />
+    <Allow ID="ID_ALLOW_A_8C_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\PostRemediationActions.mof Hash Sha256" Hash="DD743F506A3B7FC61686D2152E5AB620148883ADFDEF79E382F68CC64811A0D4" />
+    <Allow ID="ID_ALLOW_A_8D_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\PostRemediationActions.mof Hash Authenticode SIP Sha256" Hash="1384054237B3F982967CB50202251B40B762D0A50782479BD54A673F7F31F094" />
+    <Allow ID="ID_ALLOW_A_8E_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistryNamespace.mof Hash Sha1" Hash="FABC86B86B6C3CCAA340EF35517560B34C13C9B4" />
+    <Allow ID="ID_ALLOW_A_8F_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistryNamespace.mof Hash Sha256" Hash="D77464AC28C581D37FC6B8DFD24E385F579972A12434BFAF0EAB35CCDC5D0EA5" />
+    <Allow ID="ID_ALLOW_A_90_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistryNamespace.mof Hash Authenticode SIP Sha256" Hash="6D69C7D9CD46B37667322EC433A8784D733130DA6C9C0E4D6A4B854B098A59BE" />
+    <Allow ID="ID_ALLOW_A_91_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistryProvider.mof Hash Sha1" Hash="946B86BC66752E5B55CEF4797D845B138D99DA92" />
+    <Allow ID="ID_ALLOW_A_92_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistryProvider.mof Hash Sha256" Hash="4DFA6BF9B1DBD18011BB28293D31F75DF6F96A59B7CB42C57FE58323C41D21B1" />
+    <Allow ID="ID_ALLOW_A_93_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistryProvider.mof Hash Authenticode SIP Sha256" Hash="990B96525C24BD4976DFEADAAC5A23CD41BB5C4C1827D2020DB310DAF71933B8" />
+    <Allow ID="ID_ALLOW_A_94_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistrySynclet.mof Hash Sha1" Hash="8062A4EDD09565399C8CACF3A0BBDF4CCD4602BB" />
+    <Allow ID="ID_ALLOW_A_95_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistrySynclet.mof Hash Sha256" Hash="4B46349F13D886062612FDFFFC8923A1A49C6251563CD08B6FED83755871AEB5" />
+    <Allow ID="ID_ALLOW_A_96_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistrySynclet.mof Hash Authenticode SIP Sha256" Hash="4ABB92BB2BDA4104DF848850E61A51AE92BAA866EDF7B4BE22E70B4BEA7E5E09" />
+    <Allow ID="ID_ALLOW_A_97_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistrySyncletUninstall.mof Hash Sha1" Hash="2D5C04378E8850D0BB8D0526B4D5694DEE3D81BD" />
+    <Allow ID="ID_ALLOW_A_98_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistrySyncletUninstall.mof Hash Sha256" Hash="DC7926E0E81E738531FCA20DBCBC6E876F6D5D5DFC0291AF51901013D83B9674" />
+    <Allow ID="ID_ALLOW_A_99_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistrySyncletUninstall.mof Hash Authenticode SIP Sha256" Hash="E8982CAC81A6D5941112046527FDED7E2CEF6758BA678E03FBC278F87329AD61" />
+    <Allow ID="ID_ALLOW_A_9A_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistryUninstall.mof Hash Sha1" Hash="1FCC529AFE9EE586390425F81667259F07135306" />
+    <Allow ID="ID_ALLOW_A_9B_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistryUninstall.mof Hash Sha256" Hash="0FAA753DAE93B4932B984E8D8C65A46EF726FA34C9AA1A81060FA076FCC1E8D0" />
+    <Allow ID="ID_ALLOW_A_9C_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\RegistryUninstall.mof Hash Authenticode SIP Sha256" Hash="3EC1125243634E0B3457E23ADE678D591FAF558DEC1C268B914DC9E258E9E321" />
+    <Allow ID="ID_ALLOW_A_9D_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\SchemaNamespaces.mof Hash Sha1" Hash="12D9BC6C280C2CB06FFFC05D566B4865C4C2D30B" />
+    <Allow ID="ID_ALLOW_A_9E_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\SchemaNamespaces.mof Hash Sha256" Hash="38704AE9877B664E9BF857318E53DF829F1CFC6C3C160825B9FD2E16EF58C739" />
+    <Allow ID="ID_ALLOW_A_9F_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\SchemaNamespaces.mof Hash Authenticode SIP Sha256" Hash="9FAAFDEDC4125873AEB144316D537A61D72FC9D1769B3F1B1D71B3FC89355A25" />
+    <Allow ID="ID_ALLOW_A_A0_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\SchemaNamespacesUninstall.mof Hash Sha1" Hash="414B03674A33E82E7AFB32E2F69CA2AD7C9B44EB" />
+    <Allow ID="ID_ALLOW_A_A1_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\SchemaNamespacesUninstall.mof Hash Sha256" Hash="091986A56608FB8C0FA5CEBB699EB15885238A9BE318D350157A4321EB19633B" />
+    <Allow ID="ID_ALLOW_A_A2_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\SchemaNamespacesUninstall.mof Hash Authenticode SIP Sha256" Hash="1FFD278F51E86D07024345431D2AC518BDFAD92124139E42BD144BD425CF1AFA" />
+    <Allow ID="ID_ALLOW_A_A3_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\SoftwareInventory.mof Hash Sha1" Hash="0620F1AF96A19457F0D9D2F309EA8660E8208008" />
+    <Allow ID="ID_ALLOW_A_A4_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\SoftwareInventory.mof Hash Sha256" Hash="A78D1B8F65B0ADC68F015D71896A0E66B4A160DA9D5095D193B2D44D8D854DB5" />
+    <Allow ID="ID_ALLOW_A_A5_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\SoftwareInventoryUninstall.mof Hash Sha1" Hash="944280B5CD6E7EB983F63882D02EB95B1277DE62" />
+    <Allow ID="ID_ALLOW_A_A6_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\SoftwareInventoryUninstall.mof Hash Sha256" Hash="3AB0AE1B50A3D6CFBCAE10AC4776D960731F89D7CBC89D554B2AE59140FC295F" />
+    <Allow ID="ID_ALLOW_A_A7_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\SoftwareInventoryUninstall.mof Hash Authenticode SIP Sha256" Hash="B863FC99436B2ED4CF9C29A851ACA993899C0F2BA207CC0AC3EC2F128432F233" />
+    <Allow ID="ID_ALLOW_A_A8_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_AuthoredConfigPointReport.mof Hash Sha1" Hash="F05713215E021DA3D650BFBF78752F50A549A533" />
+    <Allow ID="ID_ALLOW_A_A9_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_AuthoredConfigPointReport.mof Hash Sha256" Hash="6FB6CE1547C189A7C3DBBAA243A6AD78B3CD61F746BABCF9502EB4D0F7C3E404" />
+    <Allow ID="ID_ALLOW_A_AA_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_AuthoredConfigPointReport.mof Hash Authenticode SIP Sha256" Hash="B54D5D9081FDABEC18F5026003C99790CB20C48774244CA8A2951991917E5AE3" />
+    <Allow ID="ID_ALLOW_A_AB_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_ContributionReport.mof Hash Sha1" Hash="64DF57852E57CE4DB6ED05CBC96D16BF93007ACA" />
+    <Allow ID="ID_ALLOW_A_AC_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_ContributionReport.mof Hash Sha256" Hash="4A77A182DB8018AC390F4C36C2E31DAEB07B419BACAE0916015C5401B31C2C73" />
+    <Allow ID="ID_ALLOW_A_AD_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_ContributionReport.mof Hash Authenticode SIP Sha256" Hash="21574708E97ED5F7DF6DB76A644E819FD003B157F8955ADD23185E4DE5FCC752" />
+    <Allow ID="ID_ALLOW_A_AE_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_Document.mof Hash Sha1" Hash="4FCBC3AC2AB1CB0173AF3AC6ECC96D23E9281754" />
+    <Allow ID="ID_ALLOW_A_AF_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_Document.mof Hash Sha256" Hash="30E33712A87DDB1A025F259E65BA03DED58656C27A08B208C4301908925017FD" />
+    <Allow ID="ID_ALLOW_A_B0_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_Document.mof Hash Authenticode SIP Sha256" Hash="F0053A6433F22E8E9D8733094FA6AB24E2EB03FC8632C24285A886EE2E8A43B4" />
+    <Allow ID="ID_ALLOW_A_B1_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_IdMapping.mof Hash Sha1" Hash="1A647820FC98A9B1E45407B479B8E64A8945610B" />
+    <Allow ID="ID_ALLOW_A_B2_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_IdMapping.mof Hash Sha256" Hash="C935FD4FD2C1F0F261A5CFA40991B5B066F701AAAB6B09E1AD2F65396FCB09E5" />
+    <Allow ID="ID_ALLOW_A_B3_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_IdMapping.mof Hash Authenticode SIP Sha256" Hash="2C7012551662DCDF48DD6818261A049481FBDB56AEFE9FA3D0CA6FA82571346C" />
+    <Allow ID="ID_ALLOW_A_B4_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_InstanceConfigPointReport.mof Hash Sha1" Hash="08D97EBDA41183522AA9A35B285257026C7E5FBD" />
+    <Allow ID="ID_ALLOW_A_B5_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_InstanceConfigPointReport.mof Hash Sha256" Hash="B5299CA470D409C5C28C67F03889D2F16A86A77B1C30C4462571EFB302276E92" />
+    <Allow ID="ID_ALLOW_A_B6_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_InstanceConfigPointReport.mof Hash Authenticode SIP Sha256" Hash="37F2E028A2935FB2337A5AD1938472E2AB44263A7DB05F0912C70E14F32C77CC" />
+    <Allow ID="ID_ALLOW_A_B7_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_JobSummaryReport.mof Hash Sha1" Hash="6EB181ABFCC339FEA5265E2BF943366C18498444" />
+    <Allow ID="ID_ALLOW_A_B8_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_JobSummaryReport.mof Hash Sha256" Hash="452C71B93A1E87B38C26AC3CA5A9F2DD09172A527E0785BC1A15E88E93323AE5" />
+    <Allow ID="ID_ALLOW_A_B9_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_JobSummaryReport.mof Hash Authenticode SIP Sha256" Hash="C155C2B717552D5EE53E87A0CFAD4F88721E71F27011672509EAF12BFD04B58F" />
+    <Allow ID="ID_ALLOW_A_BA_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_MappingReport.mof Hash Sha1" Hash="7E4510B29FD5E98F1699671F802B0D3D276FFE74" />
+    <Allow ID="ID_ALLOW_A_BB_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_MappingReport.mof Hash Sha256" Hash="2ED361120BCF9835E039D4310F90723F85A577370DA26352FA09F0057EE8D94C" />
+    <Allow ID="ID_ALLOW_A_BC_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_MappingReport.mof Hash Authenticode SIP Sha256" Hash="3EB2F617CB113FDF926DC62B2E46010C4050C86D96D302BF1D8160065E008A1E" />
+    <Allow ID="ID_ALLOW_A_BD_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_ModelReports.mof Hash Sha1" Hash="2ADAFAF245DC5051C8B6F5434B396E03C5B64424" />
+    <Allow ID="ID_ALLOW_A_BE_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_ModelReports.mof Hash Sha256" Hash="06C7FCDA76A0BF4AD0B5E8CC0CFE1374743200CFBA01DE484AB18E7B4CB4E401" />
+    <Allow ID="ID_ALLOW_A_BF_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_ModelReports.mof Hash Authenticode SIP Sha256" Hash="2C6B5E6DB92E940AF8D2298C2947F3A0FBADD310B9C3574CDAB1FCB8EB5C7393" />
+    <Allow ID="ID_ALLOW_A_C0_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_PolicyDocument.mof Hash Sha1" Hash="CCF6F95728ED7025CC158BF409E7527D15605339" />
+    <Allow ID="ID_ALLOW_A_C1_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_PolicyDocument.mof Hash Sha256" Hash="748D4CAE20F2D9859BAC5980050E21CEAEC4639859D289147D006AFE9213776B" />
+    <Allow ID="ID_ALLOW_A_C2_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_PolicyDocument.mof Hash Authenticode SIP Sha256" Hash="E53EC4F9B95CFED3162548DB5FAB775ED2D2C0DC74C5C9E4BAB3D2B651C76711" />
+    <Allow ID="ID_ALLOW_A_C3_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_PrincipalBinding.mof Hash Sha1" Hash="92FE47EDDB0B1539100F16969E34C4CFD89CE4F7" />
+    <Allow ID="ID_ALLOW_A_C4_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_PrincipalBinding.mof Hash Sha256" Hash="9379947226A902DD44F0E416F35AD3200EB5C100B6CB4E323D855A827B90626D" />
+    <Allow ID="ID_ALLOW_A_C5_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_PrincipalBinding.mof Hash Authenticode SIP Sha256" Hash="4B1436DE6231D6428694B42D881D78E81F9858BAC0B3EE0F9BC5961DD93722E4" />
+    <Allow ID="ID_ALLOW_A_C6_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_Qualifiers.mof Hash Sha1" Hash="992EB0121EBD61ADFCB17A84D67248767AD416A5" />
+    <Allow ID="ID_ALLOW_A_C7_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_Qualifiers.mof Hash Sha256" Hash="59694646C29DCFB12A6D8041115D7112607174E14BAF5C7A6363CC9455056920" />
+    <Allow ID="ID_ALLOW_A_C8_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_Qualifiers.mof Hash Authenticode SIP Sha256" Hash="0B77FB39344D502ADB6292E4AB81017CA4D66BFA7772ED20828B25033E28C7C4" />
+    <Allow ID="ID_ALLOW_A_C9_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_Report.mof Hash Sha1" Hash="65F18AC00C3FF69FAC7FC9FCC9F3D24EF77CA05A" />
+    <Allow ID="ID_ALLOW_A_CA_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_Report.mof Hash Sha256" Hash="14599E0827664AD4AE9A7972225AA35E94041280143A79E309F2D86D34C76F4E" />
+    <Allow ID="ID_ALLOW_A_CB_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_Report.mof Hash Authenticode SIP Sha256" Hash="C04C78BFCCFA5B11F54E953317A668609376AD4AA2CC9BA49E15337BE1029B76" />
+    <Allow ID="ID_ALLOW_A_CC_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_RulePrioritizationReport.mof Hash Sha1" Hash="A7772584D1173B36C87A34EA3BB230F44FE67A03" />
+    <Allow ID="ID_ALLOW_A_CD_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_RulePrioritizationReport.mof Hash Sha256" Hash="2064CFC2205EDA18E5AB8FABD4AE2DB372E0BF85B5F583C0DFCD029B45C83A02" />
+    <Allow ID="ID_ALLOW_A_CE_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_RulePrioritizationReport.mof Hash Authenticode SIP Sha256" Hash="37AFE2CAD9566FDA5B3BB49FC250EAD4C792AF6153A6BF3A08AA94BA6B80C21E" />
+    <Allow ID="ID_ALLOW_A_CF_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_RulePriority.mof Hash Sha1" Hash="0D097C385182EFEEB05FC17FE437CEB50071E36F" />
+    <Allow ID="ID_ALLOW_A_D0_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_RulePriority.mof Hash Sha256" Hash="A75664A4B6BB97AC1D08A7B38DC9ED213553F4B4F6F36332E32F51BD556B41CA" />
+    <Allow ID="ID_ALLOW_A_D1_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_RulePriority.mof Hash Authenticode SIP Sha256" Hash="6F6382A14214BC8EB53AD7EA3A02C1C6C45575718C18A685A37F492A8769ED1B" />
+    <Allow ID="ID_ALLOW_A_D2_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_RuleReport.mof Hash Sha1" Hash="AD2B285CB5688CFE37FED163F6C21F4E572D84D8" />
+    <Allow ID="ID_ALLOW_A_D3_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_RuleReport.mof Hash Sha256" Hash="0F555F4A8C058779681ED801252EA3F7BEF26BDBC03C52F1101DED5001615724" />
+    <Allow ID="ID_ALLOW_A_D4_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_RuleReport.mof Hash Authenticode SIP Sha256" Hash="420DDE101DD606C049C92DA487E3EDB7058417469CE0471536F1B10829FAB4A9" />
+    <Allow ID="ID_ALLOW_A_D5_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_RuleToStateReport.mof Hash Sha1" Hash="3D33F28EB098D41B7A5127DE0E0995A1EF19AB47" />
+    <Allow ID="ID_ALLOW_A_D6_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_RuleToStateReport.mof Hash Sha256" Hash="69D4852C24650A905C63FEAB59A5619D6E432FE0E7E67233A712BD1B6031089A" />
+    <Allow ID="ID_ALLOW_A_D7_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_RuleToStateReport.mof Hash Authenticode SIP Sha256" Hash="2CA155B01434D42B4D5ECD5F7E844FB80ACF678415A6B539590F59370E4E6F16" />
+    <Allow ID="ID_ALLOW_A_D8_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_SchemasUninstall.mof Hash Sha1" Hash="07ED0BFB506773FA0BD05E12BB72BC5F30246FE0" />
+    <Allow ID="ID_ALLOW_A_D9_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_SchemasUninstall.mof Hash Sha256" Hash="F131736F213ACA6936ECB8833CD13EE6771AEEBFA47D55EE6121957FCC9F9C25" />
+    <Allow ID="ID_ALLOW_A_DA_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_SchemasUninstall.mof Hash Authenticode SIP Sha256" Hash="81496A6EFA358B21968D5F41E45F7CC2FB4BBD2EA100252D9F0FB23A9D5E242F" />
+    <Allow ID="ID_ALLOW_A_DB_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_StateReport.mof Hash Sha1" Hash="30959C279287F2028751460796812ED4547C3F8F" />
+    <Allow ID="ID_ALLOW_A_DC_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_StateReport.mof Hash Sha256" Hash="2909C43F67A82B812FC02A4BA9625FDC44D1260051C6A424D2DA4D3F9DB42695" />
+    <Allow ID="ID_ALLOW_A_DD_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_StateReport.mof Hash Authenticode SIP Sha256" Hash="428D547BC8D3D0A167898C8F1F140FB1D341E8C539D887DF2348CD96F200A680" />
+    <Allow ID="ID_ALLOW_A_DE_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_StateToRuleReport.mof Hash Sha1" Hash="9C3326AB3699C22C170DE25BC961816A3A1C8447" />
+    <Allow ID="ID_ALLOW_A_DF_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_StateToRuleReport.mof Hash Sha256" Hash="1A543FB8F283D8575F5DC49E17AFE6770D61EDDE5A6DD1A7E2E52C7CEA738C33" />
+    <Allow ID="ID_ALLOW_A_E0_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_StateToRuleReport.mof Hash Authenticode SIP Sha256" Hash="CC4FFBA907A013187EE33BC4397A9BB30014EF915AFCE841C2A6E96E4AA87AD2" />
+    <Allow ID="ID_ALLOW_A_E1_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_SyncDetailReport.mof Hash Sha1" Hash="4316E069B61B4315230948B560F508A4688D34A2" />
+    <Allow ID="ID_ALLOW_A_E2_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_SyncDetailReport.mof Hash Sha256" Hash="32E8C2CA4988B5FA0BE81E0075F950431C73A74535B3802BFE72387E6A4732C7" />
+    <Allow ID="ID_ALLOW_A_E3_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_SyncDetailReport.mof Hash Authenticode SIP Sha256" Hash="D9322FCAAA39C61DF1C7AE0DF90CB27B3AF9B7C736FEC9E2E341107BFF226771" />
+    <Allow ID="ID_ALLOW_A_E4_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_SyncErrorReport.mof Hash Sha1" Hash="8435AC9E6325EA40BB371244711B3966F72D5CCD" />
+    <Allow ID="ID_ALLOW_A_E5_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_SyncErrorReport.mof Hash Sha256" Hash="64241D27DE3201FDDFF73A0F80400B3201C023FD1BF6E1C64887591DA7FCBFAA" />
+    <Allow ID="ID_ALLOW_A_E6_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_SyncErrorReport.mof Hash Authenticode SIP Sha256" Hash="0761437D37CF808D103B9B1C5E6D872C0B4EE6D4ED66C872B3029F782C76C33E" />
+    <Allow ID="ID_ALLOW_A_E7_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_TattooDetectionReport.mof Hash Sha1" Hash="FF10BAA406AA96B00E81BCEB0B0060BBBB26DFB0" />
+    <Allow ID="ID_ALLOW_A_E8_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_TattooDetectionReport.mof Hash Sha256" Hash="C6EFCF7379B7AC231BCE5C3601DB1D65D5B793032374466A0D3868F0066C17EC" />
+    <Allow ID="ID_ALLOW_A_E9_0" FriendlyName="C:\Program Files\Microsoft Policy Platform\tgtns_TattooDetectionReport.mof Hash Authenticode SIP Sha256" Hash="16FE4EC1B93AAE8CB8C62D692B67660668B00430B73FD67E40C37EB605D3C148" />
+    <Allow ID="ID_ALLOW_A_27D_0" FriendlyName="C:\Windows\CCM\ccmerrors.dll Hash Sha1" Hash="6269031A245A6170380E1BA40CD9C503D4A627D9" />
+    <Allow ID="ID_ALLOW_A_27E_0" FriendlyName="C:\Windows\CCM\ccmerrors.dll Hash Sha256" Hash="877A34DFB2BE1345E91BEC99170693631D6DBC2D513AC8B7EEE7AE8D7E301BAC" />
+    <Allow ID="ID_ALLOW_A_27F_0" FriendlyName="C:\Windows\CCM\ccmerrors.dll Hash Page Sha1" Hash="784A415C0B7CB8894FC345FE17BD65381520F75E" />
+    <Allow ID="ID_ALLOW_A_280_0" FriendlyName="C:\Windows\CCM\ccmerrors.dll Hash Page Sha256" Hash="F4F0A850CEC145E0E64FF0EDBAB91DE17F0BBC0D190FF0145F9D5DAC9B72D868" />
+    <Allow ID="ID_ALLOW_A_285_0" FriendlyName="C:\Windows\CCM\smserrors.dll Hash Sha1" Hash="7A9EA8E4E1DF8014C44EC5E3090A2FC7B7407C0A" />
+    <Allow ID="ID_ALLOW_A_286_0" FriendlyName="C:\Windows\CCM\smserrors.dll Hash Sha256" Hash="09906367D6A2AF617BF13A3F1DC444DEAC16A99197FD4E76492B11D4B02CDFF6" />
+    <Allow ID="ID_ALLOW_A_287_0" FriendlyName="C:\Windows\CCM\smserrors.dll Hash Page Sha1" Hash="5287E2071E52D80624ECE863896909722F984548" />
+    <Allow ID="ID_ALLOW_A_288_0" FriendlyName="C:\Windows\CCM\smserrors.dll Hash Page Sha256" Hash="1C0DF6B48A3C7196833F9505D1569399466135B516814F2A27536274C5778D36" />
+  </FileRules>
+  <!--Signers-->
+  <Signers>
+    <Signer ID="ID_SIGNER_F_16_0" Name="Microsoft Code Signing PCA 2011">
+      <CertRoot Type="TBS" Value="F6F717A43AD9ABDDC8CEFDDE1C505462535E7D1307E630F9544A2D14FE8BF26E" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_EA_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_EC_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_EE_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F2_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F4_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F6_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F8_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_FA_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_108_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_10A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_10C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_10E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_110_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_112_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_114_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_118_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_11A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_11C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_11E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_125_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_128_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_173_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_17C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_17E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_180_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_182_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_184_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1B6_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1B8_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1BA_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1BC_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1BE_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1C0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1C2_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1C4_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1C6_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1C8_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1CA_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1CC_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1CE_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1E6_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1FE_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_203_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_207_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_23C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_25A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_25C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_25E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_260_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_262_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_264_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_266_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_268_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_26A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_26C_0" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_28_0" Name="Microsoft Code Signing PCA">
+      <CertRoot Type="TBS" Value="27543A3F7612DE2261C7228321722402F63A07DE" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_FC_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_FE_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_100_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_102_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1CE_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1E6_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_25A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_25C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_25E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_260_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_262_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_264_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_266_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_268_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_26A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_26C_0" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_30_0" Name="Microsoft Code Signing PCA 2010">
+      <CertRoot Type="TBS" Value="121AF4B922A74247EA49DF50DE37609CC1451A1FE06B2CB7E1E079B492BD8195" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_104_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_106_0" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_121_0" Name="Microsoft Code Signing PCA">
+      <CertRoot Type="TBS" Value="7251ADC0F732CF409EE462E335BB99544F2DD40F" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1EE_0" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_122_0" Name="Microsoft Windows Hardware Compatibility PCA">
+      <CertRoot Type="TBS" Value="6B3242A9A639B0DA4D5882C7EEB402BE6615AD0C" />
+      <CertPublisher Value="Microsoft Windows Hardware Compatibility Publisher" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1EE_0" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_1_0" Name="Microsoft Code Signing PCA 2011">
+      <CertRoot Type="TBS" Value="F6F717A43AD9ABDDC8CEFDDE1C505462535E7D1307E630F9544A2D14FE8BF26E" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_2_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_3_0" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_2_0" Name="Microsoft Code Signing PCA">
+      <CertRoot Type="TBS" Value="27543A3F7612DE2261C7228321722402F63A07DE" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_2_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_3_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_4_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_5_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_6_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_7_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_8_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_10_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_11_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_12_0" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_C_0" Name="Microsoft Code Signing PCA">
+      <CertRoot Type="TBS" Value="7251ADC0F732CF409EE462E335BB99544F2DD40F" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_9_0" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_17_0" Name="Microsoft Code Signing PCA 2011">
+      <CertRoot Type="TBS" Value="F6F717A43AD9ABDDC8CEFDDE1C505462535E7D1307E630F9544A2D14FE8BF26E" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_EB_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_ED_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_EF_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F1_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F3_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F5_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F7_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_F9_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_FB_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_109_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_10B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_10D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_10F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_111_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_113_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_115_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_117_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_119_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_11B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_11D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_11F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_120_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_121_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_122_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_123_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_124_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_126_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_127_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_129_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_12A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_12B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_12C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_12D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_12E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_12F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_130_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_131_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_132_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_133_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_134_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_135_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_136_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_137_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_138_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_139_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_13A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_13B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_13C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_13D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_13E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_13F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_140_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_141_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_142_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_143_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_144_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_145_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_146_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_147_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_148_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_149_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_14A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_14B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_14C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_14D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_14E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_14F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_150_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_151_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_152_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_153_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_154_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_155_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_156_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_157_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_158_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_159_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_15A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_15B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_15C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_15D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_15E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_15F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_160_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_161_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_162_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_163_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_164_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_165_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_166_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_167_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_168_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_169_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_16A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_16B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_16C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_16D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_16E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_16F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_170_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_171_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_172_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_174_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_175_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_176_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_177_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_178_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_179_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_17A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_17B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_17D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_17F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_181_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_183_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_185_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_186_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_187_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_188_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_189_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_18A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_18B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_18C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_18D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_18E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_18F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_190_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_191_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_192_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_193_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_194_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_195_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_196_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_197_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_198_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_199_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_19A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_19B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_19C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_19D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_19E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_19F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1A0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1A1_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1A2_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1A3_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1A4_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1A5_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1A6_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1A7_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1A8_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1A9_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1AA_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1AB_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1AC_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1AD_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1AE_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1AF_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1B0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1B1_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1B2_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1B3_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1B4_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1B5_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1B7_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1B9_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1BB_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1BD_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1BF_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1C1_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1C3_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1C5_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1C7_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1C9_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1CB_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1CD_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1CF_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1D0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1D1_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1D2_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1D3_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1D4_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1D5_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1D6_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1D7_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1D8_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1D9_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1DA_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1DB_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1DC_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1DD_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1DE_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1DF_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1E0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1E1_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1E2_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1E3_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1E4_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1E5_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1E7_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1E8_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1E9_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1EA_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1EB_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1EC_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1ED_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1F0_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1F1_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1F2_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1F3_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1F4_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1F5_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1F6_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1F7_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1F8_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1F9_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1FA_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1FB_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1FC_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1FD_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1FF_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_200_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_201_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_202_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_204_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_205_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_206_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_208_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_209_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_20A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_20B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_20C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_20D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_20E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_20F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_210_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_211_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_212_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_213_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_214_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_215_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_216_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_217_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_218_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_219_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_21A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_21B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_21C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_21D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_21E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_225_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_226_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_227_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_228_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_229_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_22A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_22B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_22C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_22D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_22E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_22F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_230_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_231_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_232_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_233_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_234_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_235_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_236_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_237_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_238_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_239_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_23A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_23B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_23D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_23E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_23F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_240_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_241_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_242_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_243_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_244_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_245_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_246_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_247_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_248_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_249_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_24A_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_24B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_24C_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_24D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_24E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_24F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_250_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_251_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_252_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_253_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_254_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_255_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_256_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_257_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_258_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_259_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_25B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_25D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_25F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_261_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_263_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_265_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_267_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_269_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_26B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_26D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_26E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_26F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_270_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_271_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_272_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_273_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_274_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_275_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_276_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_277_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_278_0" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_29_0" Name="Microsoft Code Signing PCA">
+      <CertRoot Type="TBS" Value="27543A3F7612DE2261C7228321722402F63A07DE" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_FD_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_FF_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_101_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_103_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1CF_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1E7_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_21F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_220_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_221_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_222_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_223_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_224_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_259_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_25B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_25D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_25F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_261_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_263_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_265_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_267_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_269_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_26B_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_26D_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_26E_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_26F_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_270_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_271_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_272_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_273_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_274_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_275_0" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_31_0" Name="Microsoft Code Signing PCA 2010">
+      <CertRoot Type="TBS" Value="121AF4B922A74247EA49DF50DE37609CC1451A1FE06B2CB7E1E079B492BD8195" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_105_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_107_0" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_116_0" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_123_0" Name="Microsoft Code Signing PCA">
+      <CertRoot Type="TBS" Value="7251ADC0F732CF409EE462E335BB99544F2DD40F" />
+      <CertPublisher Value="Microsoft Corporation" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1EF_0" />
+    </Signer>
+    <Signer ID="ID_SIGNER_F_124_0" Name="Microsoft Windows Hardware Compatibility PCA">
+      <CertRoot Type="TBS" Value="6B3242A9A639B0DA4D5882C7EEB402BE6615AD0C" />
+      <CertPublisher Value="Microsoft Windows Hardware Compatibility Publisher" />
+      <FileAttribRef RuleID="ID_FILEATTRIB_F_1EF_0" />
+    </Signer>
+    <Signer ID="ID_SIGNER_WINDOWS_PRODUCTION_1" Name="Microsoft Product Root 2010 Windows EKU">
+      <CertRoot Type="Wellknown" Value="06" />
+      <CertEKU ID="ID_EKU_WINDOWS" />
+    </Signer>
+    <Signer ID="ID_SIGNER_ELAM_PRODUCTION_1" Name="Microsoft Product Root 2010 ELAM EKU">
+      <CertRoot Type="Wellknown" Value="06" />
+      <CertEKU ID="ID_EKU_ELAM" />
+    </Signer>
+    <Signer ID="ID_SIGNER_HAL_PRODUCTION_1" Name="Microsoft Product Root 2010 HAL EKU">
+      <CertRoot Type="Wellknown" Value="06" />
+      <CertEKU ID="ID_EKU_HAL_EXT" />
+    </Signer>
+    <Signer ID="ID_SIGNER_WHQL_SHA2_1" Name="Microsoft Product Root 2010 WHQL EKU">
+      <CertRoot Type="Wellknown" Value="06" />
+      <CertEKU ID="ID_EKU_WHQL" />
+    </Signer>
+    <Signer ID="ID_SIGNER_WHQL_SHA1_1" Name="Microsoft Product Root WHQL EKU SHA1">
+      <CertRoot Type="Wellknown" Value="05" />
+      <CertEKU ID="ID_EKU_WHQL" />
+    </Signer>
+    <Signer ID="ID_SIGNER_WHQL_MD5_1" Name="Microsoft Product Root WHQL EKU MD5">
+      <CertRoot Type="Wellknown" Value="04" />
+      <CertEKU ID="ID_EKU_WHQL" />
+    </Signer>
+    <Signer ID="ID_SIGNER_WINDOWS_FLIGHT_ROOT_1" Name="Microsoft Flighting Root 2014 Windows EKU">
+      <CertRoot Type="Wellknown" Value="0E" />
+      <CertEKU ID="ID_EKU_WINDOWS" />
+    </Signer>
+    <Signer ID="ID_SIGNER_ELAM_FLIGHT_1" Name="Microsoft Flighting Root 2014 ELAM EKU">
+      <CertRoot Type="Wellknown" Value="0E" />
+      <CertEKU ID="ID_EKU_ELAM" />
+    </Signer>
+    <Signer ID="ID_SIGNER_HAL_FLIGHT_1" Name="Microsoft Flighting Root 2014 HAL EKU">
+      <CertRoot Type="Wellknown" Value="0E" />
+      <CertEKU ID="ID_EKU_HAL_EXT" />
+    </Signer>
+    <Signer ID="ID_SIGNER_WHQL_FLIGHT_SHA2_1" Name="Microsoft Flighting Root 2014 WHQL EKU">
+      <CertRoot Type="Wellknown" Value="0E" />
+      <CertEKU ID="ID_EKU_WHQL" />
+    </Signer>
+    <Signer ID="ID_SIGNER_TEST2010_1" Name="MincryptKnownRootMicrosoftTestRoot2010">
+      <CertRoot Type="Wellknown" Value="0A" />
+    </Signer>
+    <Signer ID="ID_SIGNER_WINDOWS_PRODUCTION_USER_1" Name="Microsoft Product Root 2010 Windows EKU">
+      <CertRoot Type="Wellknown" Value="06" />
+      <CertEKU ID="ID_EKU_WINDOWS" />
+    </Signer>
+    <Signer ID="ID_SIGNER_ELAM_PRODUCTION_USER_1" Name="Microsoft Product Root 2010 ELAM EKU">
+      <CertRoot Type="Wellknown" Value="06" />
+      <CertEKU ID="ID_EKU_ELAM" />
+    </Signer>
+    <Signer ID="ID_SIGNER_HAL_PRODUCTION_USER_1" Name="Microsoft Product Root 2010 HAL EKU">
+      <CertRoot Type="Wellknown" Value="06" />
+      <CertEKU ID="ID_EKU_HAL_EXT" />
+    </Signer>
+    <Signer ID="ID_SIGNER_WHQL_SHA2_USER_1" Name="Microsoft Product Root 2010 WHQL EKU">
+      <CertRoot Type="Wellknown" Value="06" />
+      <CertEKU ID="ID_EKU_WHQL" />
+    </Signer>
+    <Signer ID="ID_SIGNER_WHQL_SHA1_USER_1" Name="Microsoft Product Root WHQL EKU SHA1">
+      <CertRoot Type="Wellknown" Value="05" />
+      <CertEKU ID="ID_EKU_WHQL" />
+    </Signer>
+    <Signer ID="ID_SIGNER_WHQL_MD5_USER_1" Name="Microsoft Product Root WHQL EKU MD5">
+      <CertRoot Type="Wellknown" Value="04" />
+      <CertEKU ID="ID_EKU_WHQL" />
+    </Signer>
+    <Signer ID="ID_SIGNER_WINDOWS_FLIGHT_ROOT_USER_1" Name="Microsoft Flighting Root 2014 Windows EKU">
+      <CertRoot Type="Wellknown" Value="0E" />
+      <CertEKU ID="ID_EKU_WINDOWS" />
+    </Signer>
+    <Signer ID="ID_SIGNER_ELAM_FLIGHT_USER_1" Name="Microsoft Flighting Root 2014 ELAM EKU">
+      <CertRoot Type="Wellknown" Value="0E" />
+      <CertEKU ID="ID_EKU_ELAM" />
+    </Signer>
+    <Signer ID="ID_SIGNER_HAL_FLIGHT_USER_1" Name="Microsoft Flighting Root 2014 HAL EKU">
+      <CertRoot Type="Wellknown" Value="0E" />
+      <CertEKU ID="ID_EKU_HAL_EXT" />
+    </Signer>
+    <Signer ID="ID_SIGNER_WHQL_FLIGHT_SHA2_USER_1" Name="Microsoft Flighting Root 2014 WHQL EKU">
+      <CertRoot Type="Wellknown" Value="0E" />
+      <CertEKU ID="ID_EKU_WHQL" />
+    </Signer>
+    <Signer ID="ID_SIGNER_STORE_1" Name="Microsoft MarketPlace PCA 2011">
+      <CertRoot Type="TBS" Value="FC9EDE3DCCA09186B2D3BF9B738A2050CB1A554DA2DCADB55F3F72EE17721378" />
+      <CertEKU ID="ID_EKU_STORE" />
+    </Signer>
+    <Signer ID="ID_SIGNER_RT_PRODUCTION_1" Name="Microsoft Product Root 2010 RT EKU">
+      <CertRoot Type="Wellknown" Value="06" />
+      <CertEKU ID="ID_EKU_RT_EXT" />
+    </Signer>
+    <Signer ID="ID_SIGNER_DRM_1" Name="MincryptKnownRootMicrosoftDMDRoot2005">
+      <CertRoot Type="Wellknown" Value="0C" />
+    </Signer>
+    <Signer ID="ID_SIGNER_DCODEGEN_1" Name="MincryptKnownRootMicrosoftProductRoot2010">
+      <CertRoot Type="Wellknown" Value="06" />
+      <CertEKU ID="ID_EKU_DCODEGEN" />
+    </Signer>
+    <Signer ID="ID_SIGNER_AM_1" Name="MincryptKnownRootMicrosoftStandardRoot2011">
+      <CertRoot Type="Wellknown" Value="07" />
+      <CertEKU ID="ID_EKU_AM" />
+    </Signer>
+    <Signer ID="ID_SIGNER_RT_FLIGHT_1" Name="Microsoft Flighting Root 2014 RT EKU">
+      <CertRoot Type="Wellknown" Value="0E" />
+      <CertEKU ID="ID_EKU_RT_EXT" />
+    </Signer>
+    <Signer ID="ID_SIGNER_RT_STANDARD_1" Name="Microsoft Standard Root 2001 RT EUK">
+      <CertRoot Type="Wellknown" Value="07" />
+      <CertEKU ID="ID_EKU_RT_EXT" />
+    </Signer>
+    <Signer ID="ID_SIGNER_TEST2010_USER_1" Name="MincryptKnownRootMicrosoftTestRoot2010">
+      <CertRoot Type="Wellknown" Value="0A" />
+    </Signer>
+  </Signers>
+  <!--Driver Signing Scenarios-->
+  <SigningScenarios>
+    <SigningScenario Value="131" ID="ID_SIGNINGSCENARIO_DRIVERS_1" FriendlyName="Auto generated policy on 12-06-2021">
+      <ProductSigners>
+        <AllowedSigners>
+          <AllowedSigner SignerId="ID_SIGNER_F_16_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_28_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_30_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_121_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_122_0" />
+          <AllowedSigner SignerId="ID_SIGNER_WINDOWS_PRODUCTION_1" />
+          <AllowedSigner SignerId="ID_SIGNER_ELAM_PRODUCTION_1" />
+          <AllowedSigner SignerId="ID_SIGNER_HAL_PRODUCTION_1" />
+          <AllowedSigner SignerId="ID_SIGNER_WHQL_SHA2_1" />
+          <AllowedSigner SignerId="ID_SIGNER_WHQL_SHA1_1" />
+          <AllowedSigner SignerId="ID_SIGNER_WHQL_MD5_1" />
+          <AllowedSigner SignerId="ID_SIGNER_WINDOWS_FLIGHT_ROOT_1" />
+          <AllowedSigner SignerId="ID_SIGNER_ELAM_FLIGHT_1" />
+          <AllowedSigner SignerId="ID_SIGNER_HAL_FLIGHT_1" />
+          <AllowedSigner SignerId="ID_SIGNER_WHQL_FLIGHT_SHA2_1" />
+          <AllowedSigner SignerId="ID_SIGNER_TEST2010_1" />
+        </AllowedSigners>
+        <FileRulesRef>
+          <FileRuleRef RuleID="ID_ALLOW_A_279_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_27A_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_27B_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_27C_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_281_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_282_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_283_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_284_0" />
+        </FileRulesRef>
+      </ProductSigners>
+    </SigningScenario>
+    <SigningScenario Value="12" ID="ID_SIGNINGSCENARIO_WINDOWS" FriendlyName="Auto generated policy on 12-06-2021">
+      <ProductSigners>
+        <AllowedSigners>
+          <AllowedSigner SignerId="ID_SIGNER_F_1_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_2_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_C_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_17_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_29_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_31_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_123_0" />
+          <AllowedSigner SignerId="ID_SIGNER_F_124_0" />
+          <AllowedSigner SignerId="ID_SIGNER_WINDOWS_PRODUCTION_USER_1" />
+          <AllowedSigner SignerId="ID_SIGNER_ELAM_PRODUCTION_USER_1" />
+          <AllowedSigner SignerId="ID_SIGNER_HAL_PRODUCTION_USER_1" />
+          <AllowedSigner SignerId="ID_SIGNER_WHQL_SHA2_USER_1" />
+          <AllowedSigner SignerId="ID_SIGNER_WHQL_SHA1_USER_1" />
+          <AllowedSigner SignerId="ID_SIGNER_WHQL_MD5_USER_1" />
+          <AllowedSigner SignerId="ID_SIGNER_WINDOWS_FLIGHT_ROOT_USER_1" />
+          <AllowedSigner SignerId="ID_SIGNER_ELAM_FLIGHT_USER_1" />
+          <AllowedSigner SignerId="ID_SIGNER_HAL_FLIGHT_USER_1" />
+          <AllowedSigner SignerId="ID_SIGNER_WHQL_FLIGHT_SHA2_USER_1" />
+          <AllowedSigner SignerId="ID_SIGNER_STORE_1" />
+          <AllowedSigner SignerId="ID_SIGNER_RT_PRODUCTION_1" />
+          <AllowedSigner SignerId="ID_SIGNER_DRM_1" />
+          <AllowedSigner SignerId="ID_SIGNER_DCODEGEN_1" />
+          <AllowedSigner SignerId="ID_SIGNER_AM_1" />
+          <AllowedSigner SignerId="ID_SIGNER_RT_FLIGHT_1" />
+          <AllowedSigner SignerId="ID_SIGNER_RT_STANDARD_1" />
+          <AllowedSigner SignerId="ID_SIGNER_TEST2010_USER_1" />
+        </AllowedSigners>
+        <FileRulesRef>
+          <FileRuleRef RuleID="ID_ALLOW_A_13_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_14_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_15_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_16_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_17_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_18_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_19_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_1A_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_1B_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_1C_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_1D_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_1E_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_1F_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_20_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_21_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_22_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_23_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_24_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_25_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_26_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_27_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_28_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_29_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_2A_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_2B_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_2C_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_2D_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_2E_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_2F_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_30_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_31_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_32_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_33_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_34_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_35_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_36_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_37_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_38_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_39_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_3A_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_3B_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_3C_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_3D_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_3E_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_3F_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_40_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_41_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_42_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_43_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_44_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_45_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_46_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_47_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_48_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_49_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_4A_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_4B_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_4C_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_4D_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_4E_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_4F_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_50_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_51_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_52_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_53_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_54_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_55_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_56_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_57_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_58_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_59_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_5A_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_5B_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_5C_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_5D_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_5E_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_5F_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_60_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_61_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_62_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_63_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_64_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_65_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_66_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_67_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_68_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_69_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_6A_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_6B_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_6C_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_6D_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_6E_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_6F_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_70_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_71_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_72_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_73_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_74_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_75_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_76_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_77_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_78_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_79_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_7A_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_7B_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_7C_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_7D_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_7E_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_7F_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_80_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_81_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_82_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_83_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_84_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_85_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_86_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_87_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_88_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_89_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_8A_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_8B_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_8C_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_8D_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_8E_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_8F_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_90_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_91_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_92_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_93_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_94_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_95_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_96_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_97_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_98_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_99_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_9A_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_9B_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_9C_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_9D_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_9E_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_9F_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A2_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A3_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A4_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A5_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A6_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A7_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A8_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A9_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_AA_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_AB_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_AC_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_AD_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_AE_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_AF_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_B0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_B1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_B2_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_B3_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_B4_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_B5_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_B6_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_B7_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_B8_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_B9_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_BA_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_BB_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_BC_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_BD_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_BE_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_BF_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_C0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_C1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_C2_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_C3_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_C4_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_C5_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_C6_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_C7_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_C8_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_C9_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_CA_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_CB_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_CC_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_CD_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_CE_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_CF_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_D0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_D1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_D2_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_D3_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_D4_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_D5_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_D6_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_D7_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_D8_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_D9_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_DA_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_DB_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_DC_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_DD_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_DE_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_DF_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_E0_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_E1_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_E2_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_E3_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_E4_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_E5_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_E6_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_E7_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_E8_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_E9_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_27D_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_27E_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_27F_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_280_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_285_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_286_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_287_0" />
+          <FileRuleRef RuleID="ID_ALLOW_A_288_0" />
+        </FileRulesRef>
+      </ProductSigners>
+    </SigningScenario>
+  </SigningScenarios>
+  <UpdatePolicySigners />
+  <CiSigners>
+    <CiSigner SignerId="ID_SIGNER_F_1_0" />
+    <CiSigner SignerId="ID_SIGNER_F_2_0" />
+    <CiSigner SignerId="ID_SIGNER_F_C_0" />
+    <CiSigner SignerId="ID_SIGNER_F_17_0" />
+    <CiSigner SignerId="ID_SIGNER_F_29_0" />
+    <CiSigner SignerId="ID_SIGNER_F_31_0" />
+    <CiSigner SignerId="ID_SIGNER_F_123_0" />
+    <CiSigner SignerId="ID_SIGNER_F_124_0" />
+    <CiSigner SignerId="ID_SIGNER_STORE_1" />
+  </CiSigners>
+  <HvciOptions>0</HvciOptions>
+  <Settings>
+    <Setting Provider="PolicyInfo" Key="Information" ValueName="Name">
+      <Value>
+        <String>DefaultWindowsAudit_SCCM_MI</String>
+      </Value>
+    </Setting>
+    <Setting Provider="PolicyInfo" Key="Information" ValueName="Id">
+      <Value>
+        <String>031017_</String>
+      </Value>
+    </Setting>
+  </Settings>
+</SiPolicy>
